@@ -1,0 +1,83 @@
+/* header start */
+.header_section {
+  /*margin-bottom: 105px;*/
+  /* dropmenu  start */
+  /* dropmenu end */ }
+  .header_section .logo{
+    padding-top:10px;
+  }
+  .header_section .nav_bar {
+    margin: 16px 30px;
+    font-size: 16px;
+    display: flex; }
+  .header_section .nav_menu {
+    width: 100%;
+    z-index: 9; }
+    .header_section .nav_menu ul {
+      list-style: none;
+      display: flex;
+      float: right;
+      line-height:40px;}
+      .header_section .nav_menu ul li {
+        margin-right: 35px; 
+        line-height: 40px;}
+        .header_section .nav_menu ul li a {
+          color: #000c20;
+          text-decoration: none !important; }
+      .header_section .nav_menu ul .menu_last_li {
+        margin-right: 0px !important; }
+      .header_section .nav_menu ul .menu_last_li a{
+        font-size:16px;
+        padding: 0px 35px !important; }
+      .header_section .nav_menu ul .menu_adza {
+        background-color: #ffd766;
+        padding: 13px 30px;
+        border-radius: 10px; }
+  .header_section .navbar_toggler_open {
+    background: url("../img/nav_bar_btn.png") no-repeat 50% 50%;
+    background-size: contain;
+    width: 35px;
+    height: 25px;
+    border: none;
+    float: right; }
+  .header_section .navbar_toggler_close {
+    background: url("../img/nav_bar_close.png") no-repeat 50% 50% !important;
+    background-size: contain;
+    width: 35px;
+    height: 25px;
+    border: none;
+    float: right; }
+  .header_section .nav_mobile_menu {
+    top: 0;
+    position:fixed;
+    width:100%;
+    background: #cccccc;
+    z-index: 1000;
+    text-align: center; }
+  .header_section .nav_mobile_list {
+    list-style: none;
+    margin-bottom: 0;
+    display: block; }
+  .header_section .nav_mobile_list li a{
+    display: block;
+    padding: 30px 0; }
+  .header_section .nav_mobile_list li a:hover{
+    background-color: #aaaaaa;
+  }
+  @media (min-width: 768px) {
+    .header_section #navbar_toggler,
+    .header_section .nav_mobile_menu {
+      display: none !important; } }
+  @media (max-width: 767px) {
+    .header_section .nav_menu_list {
+      display: none !important; }
+    .header_section .nav_mobile_menu li a {
+      font-size: 2rem;
+      color: #000c20 !important;
+      text-decoration: none; } }
+
+.header_search .nav_menu ul.seller {
+  display: none; }
+
+/* header end */
+

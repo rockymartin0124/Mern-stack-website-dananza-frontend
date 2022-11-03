@@ -1,0 +1,290 @@
+.seller_calendar .right{
+	float: right;
+}
+.seller_calendar .page-result .title{
+	font-size: 32px;
+	margin-top: 10px;
+	margin-bottom: 30px;
+	font-weight: bold;
+	font-family: Coves-Bold;
+	border-bottom: 1px solid #89b9d3;
+	width: 100%;
+	padding-bottom: 8px;
+}
+.seller_calendar .page-result .subtitle{
+	font-size: 24px;
+	margin: 15px auto;
+	width: 100%;
+	font-weight: bold;
+	font-family: Coves-Bold;
+}
+.seller_calendar .page-result-content .row{
+	position: relative;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	display: inline-flex;
+}
+.seller_calendar .upcoming-box{
+	padding: 15px;
+	background-color: white;
+	display: inline-flex;
+	width: 100%;
+}
+.seller_calendar .upcoming-box .user-profile{
+	width: 56px;
+	height: 56px;
+	margin: 0px 15px;
+}
+.seller_calendar .upcoming-box .user-profile img{
+	width: 56px;
+	height: 56px;
+}
+.seller_calendar .upcoming-box .content{
+	width: 100%;
+	padding:10px;
+}
+.seller_calendar .upcoming-box .username{
+	font-size: 20px;
+	margin-bottom: 10px;
+	font-family: 'Thasadith-Bold';
+}
+.seller_calendar .upcoming-box .detail{
+	display: inline-flex;
+	margin-bottom: 20px;
+	font-family: 'Thasadith-Bold';
+}
+.seller_calendar .upcoming-box .detail .date{
+	margin-left: 48px;
+}
+.seller_calendar .upcoming-box .detail .date .darkgrey{
+	font-family: 'Thasadith-Regular';
+}
+.seller_calendar .upcoming-box .detail img{
+	margin-right: 8px;
+	width: 16px;
+	height: 16px;
+}
+.seller_calendar .upcoming-box .actions{
+	margin-left: -15px !important;
+}
+.seller_calendar .upcoming-box .actions img{
+	margin-right: 15px;
+}
+
+.seller_calendar .trans-select{
+	background: unset;
+	border: unset;
+	font-weight: bold;
+	padding-left: 0px;
+	padding-right: 0px;
+	font-size: 14px;
+	width: 90px;
+	color: #01091c;
+	display: flex;
+}
+.seller_calendar .trans-select>div{
+	margin-left: 15px;
+}
+.seller_calendar .trans-select>div>img{
+	width: 10px;
+
+}
+.seller_calendar .btn-yellow{
+	background-color: #ffd766;
+	border-radius: 5px !important;
+	border: unset;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width: 100%;
+	font-size: 14px;
+	padding-left: 0;
+	padding-right: 0;
+}
+.seller_calendar .btn-yellow i{
+	padding-right: 15px;
+	font-size: 16px;
+}
+.seller_calendar .btn-circle{
+	width: 24px;
+	height: 24px;
+	border-radius: 50% !important;
+	margin-right: 12px;
+	background: white;
+	border: unset;
+	box-shadow: 0px 0px 10px 5px #dadada !important;
+	color: #dadada;
+	font-size: 20px;
+	font-family: 'Coves-Bold';
+	vertical-align: text-top;
+	padding: 0;
+	margin-top: 4px;
+}
+.seller_calendar .calendar-btn-group{
+	float: right;
+	margin-top: 10px;
+}
+.seller_calendar .calendar-btn-group .btn{
+	font-size: 15.4px;
+	background: unset;
+	border: unset;
+	font-weight: 100 !important;
+	font-family: 'Thasadith-Regular';
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+	margin-left: 12px;
+	margin-right: 12px;
+}
+.seller_calendar .calendar-btn-group .btn.active{
+	font-size: 15.4px;
+	background: unset;
+	border-bottom: 3px solid #2ab7c9;
+	font-weight: bold !important;
+}
+.seller_calendar .rbc-calendar .rbc-header + .rbc-header {
+ 	border-left: none;
+}
+.seller_calendar .rbc-calendar .rbc-row-bg .rbc-day-bg:first-child, .seller_calendar .rbc-calendar .rbc-row-bg .rbc-day-bg:last-child{
+	background: #f7f7f7;
+}
+.seller_calendar .rbc-month-view, .seller_calendar .rbc-day-view, .seller_calendar .rbc-time-view{
+	background-color: white;
+    margin-bottom: 30px;
+    font-size: 14px;
+}
+.seller_calendar .rbc-month-view .rbc-month-header{
+	border-bottom: 1px solid #dadada;
+	display: flex;
+}
+.seller_calendar .rbc-month-view .rbc-header{
+	width: 14.29%;
+	text-align: right;
+	padding-top: 20px;
+	padding-bottom: 16px;
+	padding-right: 10px;
+	border-bottom: 1px solid #dadada;
+	font-size: 14px;
+}
+.seller_calendar .rbc-month-view .rbc-day-bg + .rbc-day-bg{
+	border-left: 2px solid #dadada;
+}
+.seller_calendar .rbc-month-view .rbc-month-row + .rbc-month-row {
+	border-top: 2px solid #dadada;
+}
+.seller_calendar .rbc-month-view .rbc-off-range{
+	color: #c4c4c4;
+}
+.seller_calendar .rbc-month-view .rbc-off-range-bg{
+	background: white;
+}
+.seller_calendar .rbc-month-view .rbc-date-cell{
+	padding-top: 8px;
+	padding-right: 8px;
+}
+.seller_calendar .rbc-month-view .rbc-date-cell a {
+	float: right;
+	width: 25px;
+	height: 25px;
+	text-align: center;
+	padding-top: 3px;
+}
+.seller_calendar .rbc-month-view .rbc-date-cell.rbc-off-range a{
+	color: #c4c4c4;
+}
+.seller_calendar .rbc-month-view .rbc-date-cell.rbc-now a {
+	border-radius: 50% !important;
+	background: #2ab7c9;
+	color: white;
+    text-align: center;
+}
+.seller_calendar .rbc-month-view .col-day{
+	position: relative;
+    width: 14.29%;
+    padding-bottom: 14.29%;
+    border: 1px solid #dadada;
+}
+.seller_calendar .rbc-month-view .col-day .date{
+	position: absolute;
+	width: 25px;
+	height: 25px;
+	text-align: center;
+    right: 13%;
+    top: 11%;
+}
+.seller_calendar .rbc-month-view .col-day .date.active{
+	border-radius: 50% !important;
+	background: #2ab7c9;
+	color: white;
+    
+    text-align: center;
+}
+.seller_calendar .rbc-month-view .col-day .events{
+	position: absolute;
+	display: block;
+    top: 30%;
+    padding-left: 10px;
+}
+.seller_calendar .rbc-month-view .col-day .events img{
+	width: 17.9%;
+	height: 17.9%;
+	margin-right: 4.2%;
+}
+.seller_calendar .rbc-month-view .grey{
+	color: #c4c4c4;
+}
+.seller_calendar .rbc-month-view .back-grey{
+	background-color: #f7f7f7;
+}
+
+.seller_calendar .rbc-calendar img{
+	width: 20px;
+	height: 20px;
+	border-radius: 50% !important;
+	margin-left: 2px;
+	margin-right: 2px;
+	margin-top: 1px;
+	margin-bottom: 1px;
+}
+.seller_calendar .f-24{
+	font-size: 24px !important;
+}
+.seller_calendar .f-16{
+	font-size: 16px !important;
+}
+.seller_calendar .f-14{
+	font-size: 14px !important;
+}
+.seller_calendar .darkgrey{
+	color: #4b4b4b;
+}
+/* mobile */
+@media(min-width: 1230px){
+}
+@media(max-width:1229px){
+}
+@media(max-width: 992px){
+	.seller_calendar .page-result-wrapper{
+		margin: 0px;
+	}
+}
+@media(max-width: 768px){
+	.seller_calendar .page-result-content .row{
+		display: block;
+	}
+	.seller_calendar .col-sm-12{
+		width: 100%;
+	}
+	.seller_calendar .col-sm-6{
+		padding:0;
+		display: block;
+		width: 100%;
+	}
+	.seller_calendar .upcoming-box .detail{
+		display: block;
+	}
+	.seller_calendar .upcoming-box .detail>div{
+		width: 100%;
+		margin-left: 0 !important;
+	}
+}
+/*# sourceMappingURL=header.css.map */

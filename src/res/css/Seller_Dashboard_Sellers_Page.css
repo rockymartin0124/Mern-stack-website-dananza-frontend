@@ -1,0 +1,374 @@
+	.dashboard_seller .sellers_page .page-result .title {
+		font-size: 32px;
+		margin: 30px auto;
+		font-weight: bold;
+		font-family: Coves-Bold; }
+	.dashboard_seller .sellers_page .page-result .subtitle {
+		font-size: 24px;
+		margin: 15px auto;
+		width: 100%;
+		border-bottom: 1px solid #89b9d3;
+		font-weight: bold;
+		font-family: Coves-Bold; }
+		.dashboard_seller .sellers_page .page-result .subtitle .add-channel{
+			float: right;
+			font-size: 16px;
+			color: #2ab7c9;	}
+	.dashboard_seller .sellers_page .page-result .warning {
+		font-size: 24px;
+		margin: 15px auto;
+		width: 100%;
+		padding-left: 20px;
+		font-family: Coves-Bold;
+		color: red;
+	}
+	.dashboard_seller .sellers_page .page-result .formcontrol {
+		display: flex;
+		padding-bottom: 16px; }
+		.dashboard_seller .sellers_page .page-result .formcontrol .controllabel {
+			text-align: right;
+		    padding-top: 7px;
+		    padding-right: 0px;
+		    font-weight: bold;
+		    font-size: 16px; }
+		.dashboard_seller .sellers_page .page-result .block{
+			display: block !important; }
+		.dashboard_seller .sellers_page .page-result .formcontrol .controlcontent{
+			padding-left: 32px;
+			display: inline-flex; }
+			.dashboard_seller .sellers_page .page-result .formcontrol .controlcontent > div{
+				/*margin-bottom: 20px;*/
+			}
+			.dashboard_seller .sellers_page .page-result .formcontrol .controlcontent .right-control{
+				padding-left: 14%;
+				padding-bottom: 20px;
+				top: 30px; }
+			.dashboard_seller .sellers_page .page-result .formcontrol .controlcontent img.profile{
+				width: 120px;
+				height: 120px; }
+			.dashboard_seller .sellers_page .page-result .formcontrol .controlcontent textarea{
+				resize: none;
+				padding-top: 20px;
+				height: 120px; }
+			.dashboard_seller .sellers_page .page-result .formcontrol .controlcontent .input-icon{
+				width: 100%; }
+			.dashboard_seller .sellers_page .page-result .formcontrol .controlcontent .input-icon input{
+				width: 100%;
+				padding-left: 33px;
+				height: 48px; }
+			.dashboard_seller .sellers_page .page-result .formcontrol .controlcontent .input-icon .outer-tag .react-tags__selected{
+				top: 50px;
+			}
+			.dashboard_seller .sellers_page .page-result .formcontrol .controlcontent .input-icon i{
+				margin-top: 16px;
+				color: #4b4b4b; }
+			.dashboard_seller .sellers_page .page-result .formcontrol .controlcontent .input-icon img{
+				color: #ccc;
+			    position: absolute;
+			    margin: 16px 2px 4px 10px;
+			    z-index: 3;
+			    text-align: center;
+			    left: 0;}	
+			.dashboard_seller .sellers_page .page-result .formcontrol .controlcontent .input-icon .drag-file{
+				background: unset;
+				border-color: #b3c3cb !important;
+				border: 3px dashed; }
+			.dashboard_seller .sellers_page .page-result .formcontrol .controlcontent .images .item{
+				position: relative;
+				padding-top: 16px;
+				padding-right: 7px;
+				font-size: 11px;
+				height: 16px;
+				width: fit-content;
+				margin-right: 6px;
+				display: inline-table; }
+			.dashboard_seller .sellers_page .page-result .formcontrol .controlcontent .images .item .closebut{
+			    width: 10px;
+			    height: 10px;
+			    position: absolute;
+			    right: 3px;
+			    background-color: white;
+			    border-radius: 100px !important; }
+			.dashboard_seller .sellers_page .page-result .formcontrol .controlcontent .sub-control{
+				padding: 20px 0 10px; clear:both;}
+			.dashboard_seller .sellers_page .page-result .formcontrol .controlcontent .feature-slider{
+				width: 100%;
+				margin-top: 18px; }
+				.dashboard_seller .sellers_page .formcontrol .controlcontent .feature-slider .age-result{
+					margin-top: 13px;
+					color:#4b4b4b; }
+				.dashboard_seller .sellers_page .formcontrol .controlcontent .feature-slider #seller_page_gender{
+					padding-right: 0px;
+					padding-left: 0px; }
+			.dashboard_seller .sellers_page .page-result .formcontrol .controlcontent .no-padding-left{
+				padding-left: 0px; }
+	.dashboard_seller .sellers_page .page-result .channel-list {
+		margin-top: 15px;
+		margin-bottom: 50px; }
+		.dashboard_seller .sellers_page .page-result .channel-list .channel .channel-show{
+			padding: 16px 30px;
+			background-color: white;
+			color: #4b4b4b;
+			margin-bottom: 15px;
+			display: block !important; }
+			.dashboard_seller .sellers_page .page-result .channel-list .channel .channel-show .icon{
+				width: 25px;
+				height: 25px;
+				margin-right: 10px; }
+			.dashboard_seller .sellers_page .page-result .channel-list .channel .channel-show .fa-user{
+				padding-left: 26px;
+				padding-right: 8px; }
+			.dashboard_seller .sellers_page .page-result .channel-list .channel .channel-show .toolbox{
+				float: right; }
+				.dashboard_seller .sellers_page .page-result .channel-list .channel .channel-show .toolbox a{
+					color: black;
+					margin-left: 15px;
+					color: #4b4b4b; }
+	.dashboard_seller .sellers_page .page-result .dropdown-edit {
+		padding: 12px 100px; }
+		.dashboard_seller .sellers_page .page-result .dropdown-edit>div{
+			margin-top: 8px;
+			margin-bottom: 26px;
+			position: relative;
+			width: 100%; }
+		.dashboard_seller .sellers_page .page-result .dropdown-edit>label{
+			font-weight: bold !important; }
+		.dashboard_seller .sellers_page .page-result .dropdown-edit>.action{
+			margin-bottom: 58px;
+			margin-top: 0;
+			display: inline-block; }
+		.dashboard_seller .sellers_page .page-result .dropdown-edit>.action i{
+			margin-right:10px;
+		}
+			.dashboard_seller .sellers_page .page-result .dropdown-edit.packed>.action{
+				margin-top: 0px;
+				margin-bottom: 9px; }
+		.dashboard_seller .sellers_page .page-result .dropdown-edit .radius-formcontrol{
+			border-radius: 5px !important;
+			border: 1px solid #d7d7d7;
+			background-color: white;
+			width: 100%;
+			height: 47px;
+			padding-left: 56px;
+			font-weight: bold;
+			position: relative;
+			color: #4b4b4b;
+			font-size: 14px; }
+			.dashboard_seller .sellers_page .page-result .dropdown-edit .radius-formcontrol:focus{
+				background-color: #eef5f8;
+				border-color: #89b9d3; }
+		.dashboard_seller .sellers_page .page-result .dropdown-edit input[type="file"]{
+		    opacity: 0;
+			width: calc((100% - 90px));
+			position: absolute;
+			top: 0;
+			height: 47px;
+			left: 45px;
+			cursor: pointer;
+		}
+		.dashboard_seller .sellers_page .page-result .dropdown-edit .wrapper{
+		    width: 100%;
+			text-align: center;
+			max-height: 200px;
+			margin-top: 20px;
+			display: block;
+		}
+		.dashboard_seller .sellers_page .page-result .dropdown-edit .wrapper .preview{
+			max-width: 100%;
+			height: 200px;
+		}
+		.dashboard_seller .sellers_page .page-result .dropdown-edit .material-select>div{
+			margin: 0;
+			padding: 0px !important;
+			border-radius: 5px !important;
+			border: 1px solid #d7d7d7;
+			background-color: white;
+			width: 100%;
+			height: 47px;
+			padding-left: 18px;
+			font-size: 16px;
+			font-weight: bold; }
+		.dashboard_seller .sellers_page .page-result .dropdown-edit .material-select #select-material{
+			padding: 10px 25px !important;
+			height: 27px;
+		}
+		.dashboard_seller .sellers_page .page-result .dropdown-edit .detail-textarea{
+			height: 100px;
+			resize: unset;
+			padding-top:21px;
+			padding-left: 55px;
+			padding-right: 22px;
+			padding-bottom: 16px;
+			overflow: hidden; }
+		.dashboard_seller .sellers_page .page-result .dropdown-edit .control-icon{
+			position: absolute;
+			width: 16px;
+			height: 16px;
+		    left: 25px;
+		    color: #4b4b4b;
+		    top: 17px;
+		    font-size: 20px; }
+		.dashboard_seller .sellers_page .page-result .dropdown-edit .close-but{
+			position: absolute;
+			width: 16px;
+			height: 16px;
+		    right: 22px;
+		    color: #4b4b4b;
+		    top: 17px; }
+	.dashboard_seller .sellers_page .page-result .action_group {
+		padding: 20px 0; }
+		.dashboard_seller .sellers_page .page-result .action_group .btn {
+			padding-top: 18px;
+			padding-bottom: 18px;
+			width: 170px;
+			border-radius: 4px !important;
+			font-size: 16px;
+			font-family: Thasadith-Bold; }
+			.dashboard_seller .sellers_page .page-result .action_group .btn.btn-blue {
+				background-color: #2ab7c9;
+				color: white; }
+			.dashboard_seller .sellers_page .page-result .action_group .btn.btn-yellow {
+				background-color: #ffd766;
+				color: #01091c;
+				float: right; }
+	.dashboard_seller .sellers_page .ad_listings {
+  		display: grid; }
+  		.dashboard_seller .sellers_page .ad_listings .ad-list-show {
+			height: auto;
+			padding: 20px 30px;
+			margin: 10px auto;
+			background-color: #ffffff; }
+			.dashboard_seller .sellers_page .ad_listings .ad-list-show .ad_list_head {
+				display: block;
+				position: relative;
+				margin-bottom: 25px;
+				padding-bottom: 14px;
+				border-bottom: 1px solid #dadada; }
+				.dashboard_seller .sellers_page .ad_listings .ad-list-show .ad_list_head .icon {
+					width: 23px;
+					height: 23px;
+					margin-right: 10px;
+					position: relative; }
+				.dashboard_seller .sellers_page .ad_listings .ad-list-show .ad_list_head .ad_title {
+					margin-right: 60px;
+					display: inline-block; }
+				.dashboard_seller .sellers_page .ad_listings .ad-list-show .ad_list_head .ad_value {
+					display: inline-block; }
+				.dashboard_seller .sellers_page .ad_listings .ad-list-show .ad_list_head .ad_toolbox {
+					display: inline-block;
+					float: right; }
+				.dashboard_seller .sellers_page .ad_listings .ad-list-show .ad_list_head .ad_toolbox a{
+					color: #4b4b4b;
+					margin-left: 17px; }
+			.dashboard_seller .sellers_page .ad_listings .ad_list_content {
+				display: flex; }
+				.dashboard_seller .sellers_page .ad_listings .ad_list_content .image {
+					width: 20%;
+					height: 140px;
+				}
+				.dashboard_seller .sellers_page .ad_listings .ad_list_content .image img{
+					max-width: 100%;
+					height: 140px;
+				}
+				.dashboard_seller .sellers_page .ad_listings .ad_list_content .description {
+					white-space: pre;
+					width: 78%;
+					height: 125px;
+					margin-left: 2%;
+					font-size: 14px;
+					margin-top: 15px;
+					overflow-y: scroll;
+				}
+/***********************/
+	.dashboard_seller .btn{
+		border-radius: 0px !important;
+	}
+	.dashboard_seller .sellers_page .page-result .btn-radius {
+		border-radius: 5px !important;
+		}
+	.dashboard_seller .sellers_page .page-result .btn-outline{
+		border: 1px solid unset;
+		background: unset;
+		font-size: 16px;
+		font-weight: bold; }
+		.dashboard_seller .sellers_page .page-result .btn-outline:hover{
+			border: 1px solid black;
+			background: unset; }
+	.dashboard_seller .sellers_page .page-result .btn-save{
+		float: right;
+		width: 168px; }
+	.dashboard_seller .sellers_page .page-result .btn-cancel{
+		float: left;
+		width: 168px; }
+/***********************/
+/* mobile */
+@media(min-width: 1230px){
+}
+@media(max-width:1229px){
+}
+@media(max-width: 992px){
+	.dashboard_seller .sellers_page .page-result-wrapper{
+		margin: 0px;
+	}
+}
+@media(max-width: 769px){
+	.dashboard_seller .sellers_page .row{
+		display: block !important;
+	}
+	.dashboard_seller .sellers_page .col-sm-2.controllabel{
+		text-align: left !important;
+		width: 100%;
+	}
+	.dashboard_seller .sellers_page .col-sm-10.controlcontent{
+		width: 100% !important;
+	}
+	.dashboard_seller .sellers_page .feature-slider#gender{
+		display: inline-flex !important;
+	}
+	.dashboard_seller .sellers_page .col-sm-10{
+		display: block !important;
+		width: 81.33333%;
+		text-align: center;
+	}
+	.dashboard_seller .sellers_page .col-sm-1{
+		width: 8.33333%;
+	}
+	.dashboard_seller .sellers_page .col-sm-8{
+		width: 100%;
+		padding-left: 0px !important;
+		padding-right: 0px !important;
+	}
+	.dashboard_seller .sellers_page .col-sm-12{
+		width: 100%;
+	}
+	.dashboard_seller .sellers_page .page-result .action_group .btn{
+		float: unset !important;
+		width: 100%;
+	}
+}
+
+
+.dashboard_seller .fileUploader{
+	padding:0 ;
+}
+.dashboard_seller .fileUploader .fileContainer{
+	padding: 0; background: unset; box-shadow: none;
+}
+.dashboard_seller .fileUploader .fileContainer .uploadIcon,
+.dashboard_seller .fileUploader .fileContainer  p { display: none; }
+.dashboard_seller .fileUploader .fileContainer .chooseFileButton { 
+	width: 100%;  margin: 0; padding: 15px 0; background: transparent; color: #555; font-weight: bold; text-align: left; border: 3px dashed #b3c3cb;}
+.dashboard_seller .fileUploader .fileContainer .chooseFileButton span{
+	margin-left: 35px;
+}
+.dashboard_seller .fileUploader .fileContainer .input-icon i{ margin-top: 3px !important; }
+.dashboard_seller .fileUploader .fileContainer .uploadPictureContainer img.uploadPicture{ width: 80px; height: 80px; }
+.dashboard_seller .fileUploader .fileContainer .uploadPictureContainer{ width: 100px; height: 100px; margin: 20px 20px 0 0;}
+.dashboard_seller .fileUploader .fileContainer .deleteImage{ 
+	background: white; color: black; width: 20px; height: 20px; line-height: 20px; border-radius: 50% !important; cursor: pointer; 
+    font-size: 14px;}
+.dashboard_seller .fileUploader .fileContainer .uploadPicturesWrapper > div{ justify-content:left !important; }
+
+.dashboard_seller .avatar_preview{ width: 150px; margin-right: 20px; }
+.dashboard_seller .avatar_preview img{ max-width: 100%; border: 1px dashed #757575; border-radius: 50% !important;}
+/*# sourceMappingURL=header.css.map */

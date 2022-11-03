@@ -1,0 +1,244 @@
+.AuthModal #responsive {
+  padding-right: 0px;
+  border-radius: 9px !important;
+  width: 433px !important;
+  height: 442px !important;
+}
+.AuthModal .modal-backdrop {
+  opacity: 0 !important;
+  z-index: 0 !important;
+}
+.AuthModal .modal-custom {
+  width: 100% !important;
+  height: 100% !important;
+  padding: 0 !important;
+}
+.AuthModal .modal-header-custom {
+  height: 97px;
+  position: relative;
+  border: none !important;
+}
+.AuthModal .modal-header-custom > h4 {
+  text-align: center;
+  font-weight: bold;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.AuthModal .modal-title {
+  text-align: center;
+  font-weight: bold;
+  font-family: "Coves-Bold";
+  font-size: 24px;
+}
+.AuthModal .modal-content-custom {
+  border-radius: 9px !important;
+  width: 80%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%);
+}
+.AuthModal .modal-dialog-custom {
+  position: relative;
+}
+.AuthModal .facebook {
+  width: 100%;
+  height: 40px;
+  background: #4267b2;
+  color: white;
+  border: none;
+  border-radius: 5px !important;
+}
+.AuthModal .facebook-part {
+  margin-bottom: 17px;
+}
+.AuthModal .facebook-custom {
+  font-size: 28px;
+  float: left;
+  margin-top: 3px;
+  margin-left: 5px;
+}
+.AuthModal .facebook span {
+  font-size: 16px;
+}
+.AuthModal .google {
+  width: 100%;
+  height: 40px;
+  background: #ffffff;
+  color: black;
+  border: 1px lightgrey solid;
+  border-radius: 5px !important;
+  margin-bottom: 17px;
+}
+.AuthModal .google > span {
+  font-size: 16px;
+}
+.AuthModal .email {
+  width: 100%;
+  height: 40px;
+  background: #ffd766;
+  color: black;
+  border: none;
+  border-radius: 5px !important;
+}
+.AuthModal .email-part {
+  margin-bottom: 17px;
+}
+.AuthModal .email-custom {
+  font-size: 19px;
+  float: left;
+  margin-top: 3px;
+  margin-left: 5px;
+}
+.AuthModal .email > span {
+  font-size: 16px;
+}
+.AuthModal .position-relative {
+  position: relative;
+}
+.AuthModal .position-relative > i {
+  position: absolute;
+  left: 6px;
+  top: 11px;
+}
+.AuthModal .position-relative > img {
+  position: absolute;
+  left: 10px;
+  max-height: 22px;
+}
+.AuthModal .border-line {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 18px;
+}
+.AuthModal .line-left {
+  color: #dadada;
+  width: 42%;
+  display: inline-flex;
+}
+.AuthModal .line-right {
+  color: #dadada;
+  width: 42%;
+  display: inline-flex;
+}
+.AuthModal .or {
+  font-size: 20px;
+  vertical-align: middle;
+  color: #4b4b4b !important;
+}
+.AuthModal .footer-line {
+  text-align: center;
+  font-size: 16px;
+  line-height: 60px;
+  margin-bottom: 5px;
+  margin-top: 20px;
+  font-family: "Thasadith-Bold";
+}
+.AuthModal .footer-container {
+  border-top: 1px solid #dadada;
+}
+.AuthModal .signin {
+  color: #5fd9fb !important;
+  font-size: 16px;
+}
+.AuthModal .label {
+  color: #4b4b4b !important;
+}
+.AuthModal .login-body {
+  background-color: #fff;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
+  border-radius: 7px;
+  width: 400px;
+  margin: 40px auto 10px;
+  padding: 10px 30px 30px;
+  overflow: hidden;
+  position: relative;
+}
+.AuthModal #login {
+  padding-right: 0px !important;
+  border-radius: 9px !important;
+}
+.AuthModal .label-custom {
+  font-weight: 400 !important;
+}
+.AuthModal input {
+  height: 43px;
+  width: 100%;
+  color: #8290a3;
+  border: 1px solid #dde3ec;
+  padding: 10px;
+  border-radius: 4px !important
+}
+.AuthModal .form-actions-custom {
+  display: flex;
+  justify-content: space-between;
+}
+.AuthModal .form-actions-custom > button {
+  margin-top: 1px;
+  font-weight: 600;
+  padding: 10px 20px !important;
+}
+.AuthModal .form-actions-custom > label {
+  margin-left: 8px;
+}
+.AuthModal .form-actions-custom > a {
+  font-size: 14px;
+  display: inline-block;
+  margin-top: 10px;
+  float: right;
+}
+.AuthModal .thin-line {
+  border-top: 1px solid #dadada;
+  margin-top: 20px;
+}
+.AuthModal .rememberme {
+  margin-top: 10px;
+}
+.AuthModal .rememberme > span {
+  margin-top: 10px;
+}
+
+.AuthModal .user-info{
+}
+.AuthModal .user-info .row{
+  padding:10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: -1px;
+  border: 1px solid #dadada;
+}
+.AuthModal .user-info .row>div.controllabel{
+  border-right: 1px solid #dadada;
+}
+.AuthModal .user-info .row input{
+  border-radius: 10px !important;
+  border: 1px solid #dadada;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.AuthModal .user-info .action{
+  padding: 5px;
+  padding-top: 15px;
+}
+.AuthModal .user-info .action .btn{
+  width: 40%;
+}
+.AuthModal .user-info .action .btn-submit{
+  background-color: #2ab7c9;
+  color: white;
+}
+.AuthModal .user-info .action .btn-cancel{
+  background-color: #ffd766;
+  color: black;
+  float: right;
+}
+
+.AuthModal .facebook-part > span{ position: absolute;left:15px; width: calc(100% - 30px); }
+.AuthModal .facebook-part > span button{ width: 100%; background: transparent; height:40px; opacity: 0 }
+.AuthModal .google-part button:last-child, .AuthModal .google-part button:last-child:hover
+{ width: 100%; position: absolute;left: 15px; width: calc(100% - 30px); opacity:0 !important;}

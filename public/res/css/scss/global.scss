@@ -1,0 +1,54 @@
+
+@font-face
+{
+	font-family: "Thasadith-Bold";
+	src: url(../fonts/Thasadith-Bold.ttf) format('truetype');
+}
+@font-face
+{
+	font-family: "Thasadith-BoldItalic";
+	src: url(../fonts/Thasadith-BoldItalic.ttf) format('truetype');
+}
+@font-face	
+{
+	font-family: "Thasadith-Regular";
+	src: url(../fonts/Thasadith-Regular.ttf) format('truetype');
+}
+@font-face
+{
+	font-family: "Coves-Bold";
+	src: url(../fonts/Coves-Bold.otf) format('opentype');
+}
+body
+{
+	color: #000c20 !important;
+	font-family: "Thasadith-Bold";
+	font-size: 1.36vw;
+	font-weight: 900;
+	.container
+	{
+		width: 100%;
+		padding: 0px;
+	}
+}
+.info_title
+{
+	font-family: "Coves-Bold";
+	font-size: 36px;
+	font-family: 900;
+	margin-bottom: 50px;
+}
+.info_content
+{
+	font-family: "Thasadith-Regular";
+	font-size: 16px;
+	width: 67%;
+	line-height: 32px;
+}
+button
+{
+	border-radius: 5px;
+	border: none;
+	background-color: #ffd766;
+	padding: 13px 30px; 
+}

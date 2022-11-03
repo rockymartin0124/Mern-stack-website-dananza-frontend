@@ -1,0 +1,9 @@
+.noUi-ltblue .noUi-connect {
+  background-color: #2ab7c9;
+  position: absolute;
+  height: 5px;
+}
+#gender .noUi-base {
+  background: linear-gradient(to right, #2ab7c9 40%, #ff99cc 50%);
+  /* Standard syntax */
+}

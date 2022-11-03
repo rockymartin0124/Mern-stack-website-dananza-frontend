@@ -1,0 +1,119 @@
+.email-signup #responsive {
+  padding-right: 0px;
+  border-radius: 9px !important;
+  width: 633px !important;
+  height: 545px !important;
+}
+.email-signup .modal-backdrop {
+  opacity: 0 !important;
+  z-index: 0 !important;
+}
+.email-signup .modal-custom {
+  width: 100% !important;
+  height: 100% !important;
+  padding: 0 !important;
+}
+.email-signup .modal-header-custom {
+  height: 97px;
+  position: relative;
+  border: none !important;
+}
+.email-signup .modal-header-custom > h4 {
+  text-align: center;
+  font-weight: bold;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.email-signup .modal-title {
+  text-align: center;
+  font-weight: bold;  
+  font-family: "Coves-Bold";
+  font-size: 32px;
+}
+.email-signup .modal-content-custom {
+  border-radius: 9px !important;
+  width: 100%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%);
+}
+.email-signup .modal-dialog-custom {
+  position: relative;
+}
+.email-signup .form-control{
+  border-radius: 5px !important;
+  border: 1px solid #d7d7d7;
+  height: 48px;
+  padding-left: 48px;
+  margin-bottom: 15px;
+}
+.email-signup .form-control:focus{
+  border: 1px solid #26a6b7;
+  box-shadow: inset 0 0 3px 2px #0000001a !important;
+}
+.email-signup .form-control::placeholder{
+  color: #4b4b4b;
+  opacity: 1;
+}
+.email-signup .show-icon{
+  color: #4b4b4b;
+  font-size: 18px;
+  position: absolute;
+    top: 18px;
+    left: 34px;
+}
+.email-signup .align-center{
+  text-align: center;
+}
+.email-signup .form-button{
+  font-family: "Thasadith-Bold";
+  font-size: 16px;
+  background: #ffd766;
+  width: 100%;
+  padding-top: 17px;
+  padding-bottom: 17px;
+  border-radius: 5px !important;
+  margin-bottom: 20px;
+}
+.email-signup .form-button[disabled]{
+    cursor: not-allowed;
+    opacity: .65;
+    filter: alpha(opacity=65);
+    box-shadow: none;
+    background: #dadada;
+}
+.email-signup .agree{
+  font-size: 14px;
+  color: #4b4b4b;
+  font-family: 'Thasadith-Regular';
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.email-signup .agree a{
+  text-decoration: underline;
+}
+.email-signup .footerline{
+  padding-left: 15px;
+  padding-right: 15px;
+  position: relative;
+  width: 100%;
+}
+.email-signup .footerline hr{
+  border-color: #dadada;
+}
+.email-signup .footer{
+  color: #4b4b4b;
+  font-size: 16px;
+  padding-bottom: 30px;
+  text-align: center;
+  font-family: 'Thasadith-Bold';
+}
+.email-signup .footer a{
+  color: #2ab7c9;
+}

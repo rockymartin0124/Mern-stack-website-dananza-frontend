@@ -1,0 +1,122 @@
+@font-face {
+  font-family: "Thasadith-Bold";
+  src: url(../fonts/Thasadith-Bold.ttf) format("truetype"); 
+}
+@font-face {
+  font-family: "Thasadith-BoldItalic";
+  src: url(../fonts/Thasadith-BoldItalic.ttf) format("truetype"); }
+@font-face {
+  font-family: "Thasadith-Regular";
+  src: url(../fonts/Thasadith-Regular.ttf) format("truetype"); }
+@font-face {
+  font-family: "Thasadith-Italic";
+  src: url(../fonts/Thasadith-Italic.ttf) format("truetype"); }
+@font-face {
+  font-family: "Coves-Bold";
+  src: url(../fonts/Coves-Bold.otf) format("opentype"); }
+@font-face {
+  font-family: "Coves-Light";
+  src: url(../fonts/Coves-Light.otf) format("opentype"); }
+@font-face {
+  font-family: "MyriadPro-Bold";
+  src: url(../fonts/MyriadPro-Bold.otf) format("opentype"); }
+@font-face {
+  font-family: "MyriadPro-Regular";
+  src: url(../fonts/MyriadPro-Regular.otf) format("opentype"); }
+@font-face {
+  font-family: "Geomanist-Regular";
+  src: url(../fonts/Geomanist-Regular.ttf) format("truetype"); }
+@font-face {
+  font-family: "Geomanist-Italic";
+  src: url(../fonts/Geomanist-Italic.ttf) format("truetype"); }
+
+body {
+  color: #4b4b4b !important;
+  font-family: "Thasadith-Regular";
+  font-size: 1.36vw;
+  font-weight: 900; }
+input, select, img, a{
+  outline: none;
+}
+
+/* Spacing */
+.full_container{
+  width: 100%;
+}
+.container{
+  margin:0 auto;
+}
+.margin-0{
+  margin: 0;
+}
+.padding-0{
+  padding: 0;
+}
+
+/* BG colors */
+.bg-yellow{
+  background-color: #ffd766 !important;
+}
+.bg-blue{
+  background-color: #2ab7c9 !important;
+}
+.bg-gray{
+  background-color: #f3f3f3 !important;
+}
+.bg-light{
+  background-color: #f7fafa !important;
+}
+
+/* Colors */
+.color-white{
+  color: white !important;
+}
+.color-black{
+  color: black !important;
+}
+.color-dark{
+  color: #01091c !important;
+}
+.color-title{
+  color: #000c20 !important;
+}
+
+/* button style */
+button {
+  border: none;
+}
+.btn{
+  text-align: center;
+  font-family: "Thasadith-Bold";
+  border-radius: 5px !important;
+  font-size: 18px;
+}
+.btn-small{
+  line-height: 40px !important;
+}
+.btn-mid{
+  line-height: 48px !important;
+}
+.btn-large{
+  line-height: 56px !important;
+}
+
+.input-icon .btn{
+  font-size: 14px;
+  line-height: 25px !important;
+}
+
+/* text title styles */
+.info_title {
+  font-family: "Coves-Bold";
+  font-size: 36px;
+  font-family: 900;
+  padding: 60px 0 40px; 
+  color: #000c20;
+}
+
+.info_content {
+  font-family: "Thasadith-Regular";
+  font-size: 16px;
+  width: 67%;
+  line-height: 32px; }

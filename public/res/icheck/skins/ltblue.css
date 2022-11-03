@@ -1,0 +1,49 @@
+/* ltblue */
+.icheckbox_square-ltblue,
+.iradio_square-ltblue {
+    display: inline-block;
+    *display: inline;
+    vertical-align: middle;
+    margin: 0;
+    padding: 0;
+    width: 16px;
+    height: 16px;
+    background: url(ltblue.png) no-repeat;
+    border: none;
+    cursor: pointer;
+    background-size: cover;
+}
+
+.icheckbox_square-ltblue {
+    background-position: 0 0;
+}
+    .icheckbox_square-ltblue.hover {
+        background-position: -16px 0;
+    }
+    .icheckbox_square-ltblue.checked {
+        background-position: -32px 0;
+    }
+    .icheckbox_square-ltblue.disabled {
+        background-position: -48px 0;
+        cursor: default;
+    }
+    .icheckbox_square-ltblue.checked.disabled {
+        background-position: -72px 0;
+    }
+
+.iradio_square-ltblue {
+    background-position: -120px 0;
+}
+    .iradio_square-ltblue.hover {
+        background-position: -144px 0;
+    }
+    .iradio_square-ltblue.checked {
+        background-position: -168px 0;
+    }
+    .iradio_square-ltblue.disabled {
+        background-position: -192px 0;
+        cursor: default;
+    }
+    .iradio_square-ltblue.checked.disabled {
+        background-position: -216px 0;
+    }

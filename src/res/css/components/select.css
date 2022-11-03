@@ -1,0 +1,47 @@
+.material-select{
+  font-size: 16px;
+}
+.material-select .grey{
+  color: #888;
+  vertical-align: middle;
+}
+.material-select>div{
+  position: relative;
+  vertical-align: middle;
+  margin-left: 10px;
+  border-radius: 4px;
+}
+.material-select #select-material{
+  font-size: 16px;
+  font-family: "Thasadith-Bold";
+  line-height: 1.44;
+  padding-left: 12px;
+  border-radius: 4px !important;
+}
+.material-select #select-material img{
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+.material-select #select-material:hover{
+  background-color: rgba(0, 0, 0, 0.05);
+}
+.material-select div:before, 
+.material-select div:after, 
+.material-select div:hover:before{
+  border:0px !important;
+}
+#menu-material ul{
+  padding-top:0px !important;
+  padding-bottom:0px !important;
+}
+#menu-material li{
+  padding: 8px 16px !important;
+  font-size: 16px;
+  font-family: "Thasadith-Bold";
+}
+#menu-material li img{
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}

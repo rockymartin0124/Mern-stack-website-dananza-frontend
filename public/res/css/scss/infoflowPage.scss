@@ -1,0 +1,131 @@
+/** infoflowPage start **/
+	.header_section
+	{
+		margin-bottom: 0;
+	}
+	.infoflowPage
+	{
+		.cartPart
+		{
+			.row
+			{
+				margin: 0px;
+			}
+			.nav_flow.row
+			{
+				margin: 0;
+			    background-color: #f3f3f3;
+				ul
+				{
+					list-style: none;
+					display: flex;
+					line-height: 24px;
+					padding: 20px 0;
+					width: fit-content;
+    				margin: 0 auto;
+					text-align: center;
+					font-size: 15px;
+					li
+					{
+						color: #7f7f7f;
+						.step_num
+						{
+							border-radius: 25px;
+							padding: 4px 10px;
+							color: #ffffff;
+							background-color: #7f7f7f;
+							margin-right: 10px;
+						}
+					}
+					.active
+					{
+						color: #fe4a49;
+						.step_num
+						{
+							background-color: #fe4a49;
+						}
+					}
+					.fa
+					{
+						font-size: 15px;
+						color: #7f7f7f;
+						margin: 0 17px;
+					}
+				}
+			}
+			.cart_des
+			{
+				font-family: "Coves-Bold";
+				font-size: 32px;
+				line-height: 42px;
+				width: fit-content;
+				margin: 60px auto;
+			}
+			.table_camp
+			{
+				width: 55%;
+				margin: 0 auto;
+				.table thead tr
+				{
+					background: #f1f6f9;
+				}
+				.table>tbody>tr>td
+				{
+					vertical-align: middle !important;
+				}
+				button
+				{
+					padding: 0;
+					background-color: #ffffff;
+					font-size: 15px;
+				}
+				.qty
+				{
+					display: flex;
+					.qty_value
+					{
+						margin-right: 10px;
+						line-height: 40px;
+					}
+				}
+				.ctrl_value
+				{
+					display: grid; 
+					padding-left: 5px;
+				}
+				.total_value
+				{
+					font-size: 1.76vw;
+				}
+			}
+			.proceed_chk
+			{
+				.checkout
+				{
+					margin: 0 auto;
+					width: fit-content;
+					a
+					{
+						text-align: center;
+					    text-decoration: none;
+					    font-size: 16px;
+					    line-height: 100px;
+					    padding: 20px 45px;
+					    background: #ffd766;
+					    border-radius: 5px;
+				        color: #000c20;
+					}
+				}
+				.note
+				{
+					font-family: "Thasadith-BoldItalic";
+					line-height: 24px;
+				    font-size: 14px;
+				    width: 30%;
+				    margin: 40px auto 60px;
+				    text-align: center;
+				}
+			}
+		}
+	}
+/** infoflowPage end **/

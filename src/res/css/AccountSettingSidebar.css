@@ -1,0 +1,85 @@
+.account_setting .page-sidebar [data-toggle=buttons].btn-group .btn input[type=radio]{
+	position: absolute;
+    clip: rect(0,0,0,0);
+    pointer-events: none;
+}
+.account_setting .page-sidebar{
+	width: 330px;
+	position: relative;
+	float: left;
+	margin-right: -100%;
+	padding-left: 0px;
+}
+.account_setting .page-sidebar .split{
+	margin-bottom: 24px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #dadada;
+}
+.account_setting .page-sidebar .section .title{
+	font-family: 'Thasadith-Bold';
+	font-size: 16px;
+}
+.account_setting .page-sidebar .target-tree{
+	padding: 24px;
+}
+.account_setting .page-sidebar .target-tree .image{
+	text-align: center;
+	width: 100%;
+}
+.account_setting .page-sidebar .target-tree .image h1{
+	font-family: 'Coves-Bold' !important;
+}
+.account_setting .page-sidebar .target-tree .dial{
+	width: 60px;
+	margin: 2px 5px;
+	display: inline-block;
+	position: relative;
+	vertical-align: top;
+	text-align: center;
+}
+.account_setting .page-sidebar .target-tree .dial input{
+	font-family: 'Thasadith-Bold' !important;
+	position: absolute;
+	border: none;
+    left: 19px;
+    background: none;
+    top: 21px;
+}
+.account_setting .page-sidebar .target-tree .dial i{
+	color: #fac917;
+    position: absolute;
+    top: 23px;
+    right: 7px;
+    font-size: 14px;
+}
+.account_setting .page-sidebar .section .btn-group{
+	border-bottom: 0.5px solid #dadada;
+}
+.account_setting .page-sidebar .section .btn-group label{
+	font-size: 16px !important;
+	font-family: 'Thasadith-Bold';
+	width: 100%;
+	text-align: unset;
+	padding:15px 0px;
+	border: 0px;
+	border-top: 0.5px solid #dadada;
+	border-bottom: 0.5px solid #dadada;
+	margin-top: -1px;
+	border-radius: 0px !important;
+}
+.account_setting .page-sidebar .section .btn-group label img{
+	margin-left: 30px;
+	margin-right: 10px;
+	font-size: 16px;
+}
+.account_setting .page-sidebar .section .btn-group label.active{
+	border: 0px;
+	border-left: 5px solid #2ab7c9;
+	background-color: #f1f6f9;
+	margin-top: 0px;
+}
+@media(max-width: 992px){
+	.account_setting .page-sidebar{
+		display: none;
+	}
+}

@@ -1,0 +1,31 @@
+.seller, .buyer {
+  font-family: "Thasadith-Bold";
+  font-size: 16px;
+  line-height: 32px;
+  position: relative; }
+  .seller ul, .buyer ul {
+    min-width: 300px; }
+    .seller ul li, .buyer ul li {
+      margin: 10px 0; }
+    .seller ul li:first-child a, .buyer ul li:first-child a {
+      color: #38bccd; }
+  .seller .divider, .buyer .divider {
+    margin: 10px !important; }
+  .seller .menu_icon, .buyer .menu_icon {
+    position: absolute;
+    right: 20px; }
+  .seller .other_act_img, .buyer .other_act_img {
+    display: flex; }
+    .seller .other_act_img a:first-child, .buyer .other_act_img a:first-child {
+      margin-left: 13px; }
+    .seller .other_act_img a, .buyer .other_act_img a {
+      padding: 0 !important; }
+    .seller .other_act_img img, .buyer .other_act_img img {
+      margin: 10px 5px; }
+    .seller .other_act_img .more, .buyer .other_act_img .more {
+      padding: 5px; }
+
+.buyer ul {
+  min-width: 200px; }
+
+/*# sourceMappingURL=drop_menu.css.map */

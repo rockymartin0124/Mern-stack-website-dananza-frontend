@@ -1,0 +1,182 @@
+.blog-home.page-content{
+	width: 100%;
+	padding-left: 11.5%;
+	padding-right: 11.5%;
+	padding-top: 35px;
+	padding-bottom: 65px;
+    /*background: linear-gradient(to bottom,#2ab7c92b 2%, #2ab7c900 17%, #2ab7c900 71%, #f1f6f9cc 90%);*/ }
+	.blog-home .summary{
+		border-radius: 10px !important;
+		background-image: url(../img/hero1.png);
+		background-size: cover;
+		color: #00000c;
+		width: 100%;
+		padding: 45px 65px; }
+		.blog-home .summary .title{
+			font-size: 4.85vw;
+			font-family: 'MyriadPro-Bold'
+		}
+		.blog-home .summary .content{
+			font-size: 1.38vw;
+			font-family: 'Thasadith-Regular';
+			padding-bottom: 5px;
+			width: 86%;
+		}
+	.blog-home .search{
+		margin-top: 35px; }
+		.blog-home .search .text{
+			font-size: 18px;
+			font-family: 'Thasadith-Regular';
+		}
+		.blog-home .search .search-wrapper{
+			display: flex;
+			margin-top: 5px;
+		}
+		.blog-home .search .icon-edit{
+			position: relative;
+			width: 63%;
+			margin: 0 auto; }
+			.blog-home .search .icon-edit input{
+				width: 100%;
+				height: 38px;
+				font-family: 'Thasadith-Bold';
+				font-size: 18px;
+				border-radius: 19px !important;
+				padding-left: 37px;
+				border: 1px solid;
+			}
+			.blog-home .search .icon-edit i{
+				font-size: 16px;
+				color: #dadada;
+				position: absolute;
+			    top: 12px;
+    			left: 12px;
+			}
+	.blog-home .post-advertise{
+		padding: 90px 15px 10px; }
+		.blog-home .post-advertise .comment{
+			font-size: 29px;
+			font-family: 'Coves-Light';
+			color: #4b4b4b;
+			padding-left: 44px;
+			padding-top: 15px;
+			font-weight: 100;
+		}
+		.blog-home .post-advertise .post .content{
+			padding: 0 10px;
+		}
+		.blog-home .post-advertise .post-list{
+			width: 100%;
+			padding: 15px;
+			display: flex;
+			justify-content: space-between; }
+			.blog-home .post-advertise .post{
+				width: 254px;
+				padding: 5px;
+				border-radius: 1px !important;
+				border: 1px solid #dadada;
+				width: 28%;
+				background-color: #ffffffc7;
+				padding-bottom: 70px;
+				position: relative; }
+				.blog-home .post-advertise .post img{
+					width: 100%;
+					border-radius: 5px !important;
+				}
+				.blog-home .post-advertise .post .title{
+					width: 100%;
+					font-family: 'MyriadPro-Bold';
+					font-size: 1.6vw;
+					padding: 15px;
+					line-height: 1.3;
+				}
+				.blog-home .post-advertise .post .action{
+					position: absolute;
+					bottom:0;
+					width: calc( 100% - 10px);
+					padding: 15px }
+					.blog-home .post-advertise .post .action .read{
+						background: #ffd766;
+						color: #4b4b4b;
+						width: 75px;
+						border-radius: 5px !important;
+						font-family: 'MyriadPro-Bold';
+						font-size: 16px;
+						padding-left: 6px;
+						padding-right: 6px;
+					}
+					.blog-home .post-advertise .post .action .save{
+						background: #2ab7c9;
+						float: right;
+						color: white;
+						width: 75px;
+						border-radius: 5px !important;
+						font-family: 'MyriadPro-Bold';
+						font-size: 16px;
+						padding-left: 6px;
+						padding-right: 6px;
+					}
+.blog-home .pagination-wrapper{
+	text-align: center;
+}
+.blog-home .pagination {
+  padding: 20px;
+  font-family: "Thasadith-Bold";
+  text-align: center;
+}
+.blog-home .pagination .btn {
+  border-radius: 5px !important;
+  width: 43px;
+  height: 40px;
+  margin-right: 10px;
+  padding: 7px;
+}
+.blog-home .pagination label {
+  border: none;
+}
+
+@media(max-width: 992px){
+	.blog-home .summary .title{
+		font-size:36px;
+	}
+	.blog-home .post-advertise .post .action > button.btn,
+	.blog-home .post-advertise .post .action > a{
+		width: 100%;
+		margin-bottom:10px;
+		display: block;
+	}
+	.blog-home .post-advertise .post .action > a button{
+		width: 100% !important;
+	}
+	.blog-home .summary{
+		padding: 10%;
+	}
+	.blog-home.page-content{
+		padding:20px;
+	}
+	.blog-home .summary .content{
+		font-size: 14px;
+	}
+	.blog-home .summary .user-data{
+		position: initial;
+		margin:10px ;
+	}
+	.blog-home .post-advertise .post .title{
+		font-size:22px;
+	}
+	.blog-home .post-advertise .post{
+		padding-bottom: 120px;
+	}
+}
+@media(max-width: 768px){
+	.blog-home .post-advertise .post-list{
+		display: block;
+	}
+	.blog-home .post-advertise .post{
+		width: 80%;
+		margin:30px auto;
+		display: block;
+	    clear: both;
+    	overflow: hidden;
+	}
+}

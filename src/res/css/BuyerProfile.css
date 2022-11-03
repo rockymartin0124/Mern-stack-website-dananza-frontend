@@ -1,0 +1,140 @@
+.buyer_profile .headline-second.pull-right > i {
+  margin-left: 10px !important;
+}
+.buyer_profile .pd-bottom {
+  padding-bottom: 75px;
+}
+.buyer_profile .controlcontent .mt-radio-list>label {
+  display: block;
+  font-family: "Thasadith-Bold" !important;
+  font-size: 16px;
+  padding-left:0;
+  margin-bottom: 15px;
+}
+.buyer_profile .controlcontent .mt-radio-list>label>div {
+  margin-right: 10px;
+}
+
+.buyer_profile .avatar_preview img{
+  width: 120px;
+  height: 120px;
+  margin-right: 50px;
+}
+
+.buyer_profile .btn-radius {
+  border-radius: 5px !important;
+}
+.buyer_profile .controlcontent {
+  padding-left: 32px !important;
+  display: inline-flex;
+}
+ .buyer_profile .formcontrol {
+    display: flex;
+    margin-top:20px;
+  }
+.buyer_profile .controlcontent .description{
+  margin-top:20px;
+}
+.buyer_profile .controlcontent p{
+  margin:0;
+}
+.buyer_profile .controlcontent input {
+  height: 50px;
+}
+.buyer_profile .controlcontent .input-icon{
+  width: 100%;
+}
+.buyer_profile .controlcontent .input-icon .form-control{
+  padding-left: 33px;
+}
+.buyer_profile .controlcontent.actions{
+  justify-content: flex-end;
+}
+.buyer_profile .placeholder-img {
+  position: absolute;
+  top: 14px;
+  left: 12px;
+}
+.buyer_profile .add-website {
+  float: right;
+  font-size: 16px;
+  color: #2ab7c9 !important;
+  margin-top:10px;
+}
+.buyer_profile .controllabel {
+  font-family: "Thasadith-Bold" !important;
+  font-size: 16px;
+  text-align: right;
+}
+.buyer_profile .img-comment {
+  font-family: "Thasadith-Regular" !important;
+  font-size: 16px;  
+}
+.buyer_profile .question {
+  font-family: "Thasadith-Bold" !important;
+  font-size: 16px;
+}
+
+.buyer_landing.buyer_profile .action_group {
+  padding: 20px 0; 
+  width: 80%;
+  margin: 0 auto;
+}
+.buyer_landing.buyer_profile .action_group .btn {
+  padding-top: 18px;
+  padding-bottom: 18px;
+  width: 170px;
+  border-radius: 4px !important;
+  font-size: 16px;
+  font-family: Thasadith-Bold; 
+}
+.buyer_landing.buyer_profile .action_group .btn.btn-blue {
+  background-color: #2ab7c9;
+  color: white; 
+}
+.buyer_landing.buyer_profile .action_group .btn.btn-yellow {
+  background-color: #ffd766;
+  color: #01091c;
+  float: right; 
+}
+.buyer_landing.buyer_profile .page-main-content.row {
+  margin: 30px 14.44% 0 11.11% !important;
+}
+.buyer_landing.buyer_profile .action_group .left
+{
+  margin-left: 0 !important;
+}
+.alert_msg
+{
+  font-size: 24px;
+  margin: 15px auto;
+  width: 100%;
+  padding-left: 20px;
+  font-family: Coves-Bold;
+  color: red;
+}
+@media(max-width: 992px){
+  .buyer_profile .controlcontent {
+    display: block;
+    text-align: center;
+  }
+  .buyer_profile .formcontrol {
+    display: block;
+  }
+  .buyer_profile .controllabel{
+    text-align: center;
+    width:100%;
+  }
+}
+@media(max-width: 768px) {
+  .buyer_landing.buyer_profile .action_group .btn{
+    float: unset !important;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
+
+.buyer_landing.buyer_profile .avatar_preview{ width: 150px; margin-right: 20px; }
+.buyer_landing.buyer_profile .avatar_preview img{ max-width: 100%; border: 1px dashed #757575; border-radius: 50% !important;}
+
+/*# sourceMappingURL=../BuyerProfile.css.map */

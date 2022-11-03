@@ -1,0 +1,364 @@
+.order-dashboard .order-buyer{
+	padding-left: 5.8%;
+	padding-right: 5.8%;
+	padding-top: 20px;
+	min-height: 1000px;
+	width: 100%;
+	font-family: 'Thasadith-Bold';
+	display: block;
+	background-color: #deebf2;
+	padding-bottom: 100px;
+}
+.order-dashboard .order-buyer .page-header .title{
+    font-size: 32px;
+    margin-top: 20px;
+    font-weight: bold;
+    font-family: Coves-Bold;
+    width: 94%;
+    margin:0 3%;
+    border-bottom: 1px solid #89b9d3;}
+
+.order-dashboard .order-buyer .page-header .subtitle{
+    font-size: 18px;
+    padding-top: 12px;
+    font-weight: bold;
+    font-family: Thasadith-Regular;
+    width: 94%;
+    margin:0 3%;
+}
+
+.order-dashboard .order-buyer .message{
+	display: flex;
+	width: 100%;
+	position: relative;
+	margin-bottom: 30px;
+	margin-top: 30px; }
+	.order-dashboard .order-buyer .message .sender{
+		width: 12.25%;
+		position: relative; }
+		.order-dashboard .order-buyer .message .sender .wrapper{
+			position: absolute;
+			bottom: -10px;
+			right: 0; }
+			.order-dashboard .order-buyer .message .sender .wrapper img{
+				width: 33%;
+				margin-right: 7%; }
+	.order-dashboard .order-buyer .message .message-wrapper{
+		width: 71.5%;
+	}
+	.order-dashboard .order-buyer .message .message-content{
+		max-width: 100% }
+		.order-dashboard .order-buyer .message .message-content .date{
+			font-family: 'Thasadith-Regular';
+			font-size: 12px;
+			color: #4b4b4b;
+		}
+		.order-dashboard .order-buyer .message.issue .message-box{
+			display: inline-flex !important;
+		}
+		.order-dashboard .order-buyer .message .message-content .issue{
+			width: 29%;
+			background-color: #dff0d8;
+			border-radius: 10px !important;
+			padding: 5px;
+			display: inline-flex;
+			float: right;
+		}
+		.order-dashboard .order-buyer .message .message-content .message-box{
+			font-size: 14px;
+			font-family: 'Thasadith-Bold';
+			padding: 15px;
+			background-color: white;
+			border-radius: 10px !important;
+			background: #d7d7d7;
+			width: fit-content;
+			position: relative; }
+			.order-dashboard .order-buyer .message .message-content .message-box .arrow_send{
+			    display: block;
+			    position: absolute;
+			    top: 100%;
+			    left: 0;
+			}
+			.order-dashboard .order-buyer .message .message-content .message-box .arrow_receive{
+			    display: block;
+			    position: absolute;
+			    top: 100%;
+			    right: 0;
+			}
+			.order-dashboard .order-buyer .message .message-content .message-box .link{
+			    margin-top: 8px;
+    			margin-left: 12px; }
+			.order-dashboard .order-buyer .message .message-content .message-box .link img{
+				position: absolute;
+			}
+			.order-dashboard .order-buyer .message .message-content .message-box .link .message-response,
+			.order-dashboard .order-buyer .message .message-content .message-box .link a{
+				padding-left: 20px;
+			}
+			.order-dashboard .order-buyer .message .message-content .message-box .attachment{
+			    padding-left: 5px;
+			    padding-top: 10px;
+			    text-align: center;
+			}
+			.order-dashboard .order-buyer .message .message-content .message-box .attachment img{
+				max-width: 100%;
+			}
+			.order-dashboard .order-buyer .message .message-content .message-box .attachment input[type='file']{
+				position: absolute;
+			    width: 100%;
+			    height: 200px;
+			    outline: unset;
+			    opacity: 0;
+			    cursor: pointer;
+			}
+			.order-dashboard .order-buyer .message .message-content .message-box .attachment .wrapper{
+				width: 300px;
+				height: 200px;
+				margin: 0px auto;
+				text-align: center;
+				border: 1px solid black;
+			}
+			.order-dashboard .order-buyer .message .message-content .message-box .attachment .wrapper.noborder{
+				border: unset;
+				width: 100%;
+				max-width: 100%;
+			}
+			.order-dashboard .order-buyer .message .message-content .message-box .attachment .preview{
+				height: 200px;
+				max-width: 100%;
+			}
+			.order-dashboard .order-buyer .message .message-content .message-box .action{
+		        width: fit-content;
+		        height: fit-content;
+				display: flex;
+				min-width: fit-content;
+			}
+			.order-dashboard .order-buyer .message .message-content .message-box .action button{
+				margin-top: 15px;
+				margin-bottom: 15px;
+			}
+			.order-dashboard .order-buyer .message .message-content .message-box .btn{
+				font-family: 'MyriadPro-Bold';
+				font-size: 14px;
+				margin-left: 10px;
+				margin-right: 10px;
+			}
+			.order-dashboard .order-buyer .message .message-content .message-box .btn i{
+				margin-left: 2px;
+			}
+			.order-dashboard .order-buyer .message .message-content .message-box .btn-reject{
+				padding: 5px 10px;
+				background: #d9534f;
+				color: black;
+			}
+			.order-dashboard .order-buyer .message .message-content .message-box .btn-accept{
+				padding: 5px 10px;
+				background: #5cb85c;
+				color: white;
+			}
+			.order-dashboard .order-buyer .message .message-content .message-box .btn-launch{
+				min-width: 93px;
+				padding: 5px 10px;
+				background: #5dd475;
+				color: #4b4b4b;
+			}
+			.order-dashboard .order-buyer .message .message-content .message-box .btn-submit{
+				min-width: 93px;
+				padding: 5px 10px;
+				background: #5dd475;
+				color: #4b4b4b;
+				float: right;
+			}
+			.order-dashboard .order-buyer .message .message-content .message-box .state-accepted{
+				min-width: 93px;
+				padding: 5px 10px;
+				background: #eedf21;
+				color: #4b4b4b;
+				cursor: inherit;
+			}
+			.order-dashboard .order-buyer .message .message-content .message-box .state-launching{
+				min-width: 93px;
+				padding: 5px 10px;
+				background: #81d4fa;
+				color: #4b4b4b;
+				cursor: inherit;
+			}
+			.order-dashboard .order-buyer .message .message-content .message-box .state-launched{
+				min-width: 93px;
+				padding: 5px 10px;
+				background: #f7ef90;
+				color: #4b4b4b;
+				cursor: inherit;
+			}
+			.order-dashboard .order-buyer .message .message-content .message-box .state-approved{
+				padding: 5px 10px;
+				background: #81d4fa;
+				color: #4b4b4b;
+				cursor: inherit;
+			}
+			.order-dashboard .order-buyer .message .message-content .message-box .state-rejected{
+				padding: 5px 10px;
+				background: #e58787;
+				color: #4b4b4b;
+				cursor: inherit;
+			}
+			.order-dashboard .order-buyer .message .message-content .message-box .state-awaiting{
+				min-width: 93px;
+				padding: 20px 10px;
+				background: #cdeefd;
+				color: #4b4b4b;
+				cursor: inherit;
+			}
+	.order-dashboard .order-buyer .message .message-response{
+		background: unset;
+		border: 1px dashed black;
+		border-radius: 8px !important;
+		resize: unset;
+		width: 100%;
+		padding-left: 5px;
+	}
+	.order-dashboard .order-buyer .message .message-response.special{
+		resize: vertical;
+	}
+	.order-dashboard .order-buyer .message.upload .message-box{
+		width: 80%;
+	}
+	.order-dashboard .order-buyer .message.upload .message-content .message-box .action{
+		width: 100%;
+		display: flow-root;
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+	.order-dashboard .order-buyer .message.upload .action button{
+		float: right;
+	}
+	.order-dashboard .order-buyer .message.buyer .arrow_receive{
+		display: none !important;
+	}
+	.order-dashboard .order-buyer .message.seller .arrow_send{
+		display: none !important;
+	}
+	.order-dashboard .order-buyer .message.seller .sender .wrapper{
+		left: 0;
+		text-align: right;
+		right: unset;
+	}
+	.order-dashboard .order-buyer .message.seller .message-box{
+		float: right;
+	}
+	.order-dashboard .order-buyer .message.action.seller .message-box{
+		width: 100%;
+	}
+	.order-dashboard .order-buyer .message.action.seller.pending .message-box{
+		max-width: 70%;
+		width: fit-content;
+		float: right;
+	}
+	.order-dashboard .order-buyer .message.action.buyer .message-box{
+		max-width: 70%;
+		display: flex;
+	}
+	.order-dashboard .order-buyer .message.rating .message-box{
+		max-width: 50%;
+	}
+	.order-dashboard .order-buyer .message.rating .message-box i{
+		font-size: 20px;
+	}
+/*	.order-dashboard .order-buyer .message.rating .message-box i.fa-star{
+		color: #fac917;
+	}*/
+	.order-dashboard .order-buyer .message.seller.rating .message-box{
+		text-align: right;
+	}
+	.order-dashboard .order-buyer .message.seller.rating .message-box .para{
+		float: right !important;
+	}
+	.order-dashboard .order-buyer .message.buyer.rating .action{
+		width: 100%;
+		display: block;
+    	height: 50px;
+	}
+	.order-dashboard .order-buyer .message.seller .message-box .action{
+		float: right;
+	}
+	.order-dashboard .order-buyer .message .para{
+		margin: 10px;
+	}
+
+	.order-dashboard .order-buyer .message.seller .message-content .message-box .para,
+	.order-dashboard .order-buyer .message.seller .message-content .message-box .link{
+	    max-width: calc((100% - 260px));
+    	width: 100%;
+		float: left; }
+	.order-dashboard .order-buyer .message.rating .message-content .message-box .para{
+		max-width: unset;
+	}
+	.order-dashboard .order-buyer .message.seller .message-content .date{
+		text-align: right;
+	}
+	
+	.order-dashboard .order-buyer .result{
+		font-family: 'Thasadith-Bold';
+		font-size: 16px;
+		width: 320px;
+		margin: 0px auto;
+		margin-top: 80px;
+		padding: 15px;
+		background: rgb(217,237,247);
+		color: rgb(11,73,104);
+		border: 1px solid rgb(182,223,231);
+		border-radius: 5px !important;
+	}
+	.order-dashboard .order-buyer .feedback{
+		width: 100%;
+		margin: 0 auto;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		font-family: 'Thasadith-Bold';
+		font-size: 20px;
+		text-align: center;
+	}
+	.order-dashboard .order-buyer .feedback textarea{
+		margin-top: 30px;
+		margin-bottom: 30px;
+		resize: unset;
+		width: 320px;
+		height: 140px;
+	}
+	.order-dashboard .order-buyer .feedback .btn-submit{
+		padding: 5px 10px;
+		color: white;
+		background: #d9534f;
+		width: 140px;
+		margin: 0 auto;
+		font-family: "Thasadith-Bold";
+		font-size: 14px;
+	}
+@media (max-width: 768px)
+{
+	.order-dashboard .order-buyer .message .para, .order-dashboard .order-buyer .message .link{
+		max-width: unset !important;
+	}
+	.order-dashboard .order-buyer .message .message-box{
+		display: block !important;
+		max-width: unset !important;
+	}
+	.order-dashboard .order-buyer .message .message-content .issue{
+		width: 100%;
+		float: unset;
+	}
+	.order-dashboard .order-buyer .message .action{
+		width: 100% !important;
+		display: block !important;
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+	.order-dashboard .order-buyer .message .action .btn{
+		width: 100% !important;
+		min-width: unset !important;
+		margin: 0px !important;
+	}
+	.order-dashboard .order-buyer .message.issue .message-box{
+		display: block !important;
+	}
+}

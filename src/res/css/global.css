@@ -1,0 +1,249 @@
+@font-face {
+  font-family: "Thasadith-Bold";
+  src: url(../fonts/Thasadith-Bold.ttf) format("truetype"); 
+}
+@font-face {
+  font-family: "Thasadith-BoldItalic";
+  src: url(../fonts/Thasadith-BoldItalic.ttf) format("truetype"); }
+@font-face {
+  font-family: "Thasadith-Regular";
+  font-weight: 500;
+  src: url(../fonts/Thasadith-Regular.ttf) format("truetype"); }
+@font-face {
+  font-family: "Thasadith-Italic";
+  src: url(../fonts/Thasadith-Italic.ttf) format("truetype"); }
+@font-face {
+  font-family: "Coves-Bold";
+  src: url(../fonts/Coves-Bold.otf) format("opentype"); }
+@font-face {
+  font-family: "Coves-Light";
+  src: url(../fonts/Coves-Light.otf) format("opentype"); }
+@font-face {
+  font-family: "MyriadPro-Bold";
+  src: url(../fonts/MyriadPro-Bold.otf) format("opentype"); }
+@font-face {
+  font-family: "MyriadPro-Regular";
+  src: url(../fonts/MyriadPro-Regular.otf) format("opentype"); }
+@font-face {
+  font-family: "Geomanist-Regular";
+  src: url(../fonts/Geomanist-Regular.ttf) format("truetype"); }
+@font-face {
+  font-family: "Geomanist-Italic";
+  src: url(../fonts/Geomanist-Italic.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Muli-Light";
+  src: url(../fonts/Muli-Light.ttf) format("truetype"); }
+@font-face {
+  font-family: "Muli-Regular";
+  src: url(../fonts/Muli-Regular.ttf) format("truetype"); }
+@font-face {
+  font-family: "Muli-Bold";
+  src: url(../fonts/Muli-Bold.ttf) format("truetype"); }
+@font-face {
+  font-family: "Muli-SemiBold";
+  src: url(../fonts/Muli-SemiBold.ttf) format("truetype"); }
+
+body {
+  color: #4b4b4b !important;
+  font-family: "Thasadith-Regular";
+/*  font-size: 1.36vw;
+*/  font-weight: 900; 
+  background:white !important;
+}
+input, select, img, a, button, textarea{
+  outline: none;
+}
+
+/* Spacing */
+.full_container, .full-width{
+  width: 100%;
+}
+.container{
+  margin:0 auto;
+}
+.margin-0{
+  margin: 0;
+}
+.padding-0{
+  padding: 0;
+}
+.page-container{
+  background: white !important;
+}
+
+/* BG colors */
+.bg-yellow{
+  background-color: #ffd766 !important;
+}
+.bg-blue{
+  background-color: #2ab7c9 !important;
+}
+.bg-gray{
+  background-color: #f3f3f3 !important;
+}
+.bg-light{
+  background-color: #f7fafa !important;
+}
+.bg-green {
+  color: #2ab7c9!important;
+}
+
+/* Colors */
+.color-white{
+  color: white !important;
+}
+.color-black{
+  color: black !important;
+}
+.color-dark{
+  color: #01091c !important;
+}
+.color-title{
+  color: #000c20 !important;
+}
+
+/* button style */
+button {
+  border: none;
+}
+.btn{
+  text-align: center;
+  font-family: "Thasadith-Bold";
+  border-radius: 5px !important;
+  font-size: 18px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.btn-small{
+  line-height: 40px !important;
+}
+.btn-mid{
+  line-height: 48px !important;
+}
+.btn-large{
+  line-height: 56px !important;
+}
+
+.input-icon .btn{
+  font-size: 14px;
+  line-height: 25px !important;
+}
+
+/* text title styles */
+.info_title {
+  font-family: "Coves-Bold";
+  font-size: 36px;
+  font-family: 900;
+  padding: 60px 0 40px; 
+  color: #000c20;
+}
+
+.info_content {
+  font-family: "Thasadith-Regular";
+  font-size: 16px;
+  width: 67%;
+  line-height: 32px; }
+a{
+  color: #01091c;
+}
+a:hover{
+  text-decoration: none;}
+
+
+.has-error input{
+  border:1px solid red !important;
+}
+.has-error .btn{
+  background: #d7d7d7 !important;
+}
+.has-error p{
+  color: red !important;
+  margin: 0;
+}
+
+/*start buyer global styles*/
+  /* headline styles*/
+  .headline-first {
+    margin-top: 20px;
+    font-size: 30px;
+    font-family: "Coves-Bold";
+  }
+  .headline-second {
+    margin-top: 20px;
+    font-size: 16px;
+    font-family: "Thasadith-Regular";
+  }
+
+  .headline-second a i{
+    margin-left: 10px;
+  }
+/* seller dashboard */
+.dashboard_seller{
+    border-top: 1px solid #dadada;
+}
+.dashboard_seller .page-content {
+  width: 100%;
+  font-family: 'Thasadith-Regular';
+  font-weight: 900 !important;
+  font-size: 14px;
+  position: relative;
+  color: #000c20; }
+.dashboard_seller .page-result-wrapper {
+  background-color: #deebf2;
+  margin-left: 330px;
+  position: relative; }
+.dashboard_seller .page-result-wrapper .page-result {
+  width: 100%;
+  margin: 0px;
+  padding-left: 11.11%;
+  padding-right: 14.44%;
+  padding-top: 20px;
+  position: relative;
+  padding-bottom: 40px; }
+
+/* alert str css */
+div.snackAlert > div{
+    font-size: 14px;
+    color: white;
+}
+div.snackAlert > div button{
+  padding: 2px;
+  border-radius: 50% !important;
+}
+
+div.snackAlert.success > div{
+    background-color: #43a047;
+}
+div.snackAlert.warning > div{
+    background-color: #ffa000;
+}
+div.snackAlert.info > div{
+    background-color: #1976d2;
+}
+div.snackAlert.error > div{
+    background-color: #d32f2f;
+}
+/* Account setting */
+.account_setting{
+    border-top: 1px solid #dadada;
+}
+.account_setting .page-content {
+  width: 100%;
+  font-family: 'Thasadith-Regular';
+  font-weight: 900 !important;
+  font-size: 14px;
+  position: relative;
+  color: #000c20; }
+.account_setting .page-result-wrapper {
+  margin-left: 330px;
+  border-left: 1px solid #dadada;
+  position: relative; }
+.account_setting .page-result-wrapper .page-result {
+  width: 100%;
+  margin: 0px;
+  padding-left: 11.11%;
+  padding-right: 14.44%;
+  padding-top: 20px;
+  position: relative;
+  padding-bottom: 40px; }

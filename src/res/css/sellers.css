@@ -1,0 +1,243 @@
+.sellers {
+  margin-top: 40px; }
+  .sellers .fa-star {
+    color: #fac917;
+    font-size: 18px; }
+  .sellers .reviews_star {
+    color: #a7a7a7;
+    margin-left: 5px; }
+  .sellers .sidebar {
+    border: 1px solid #dadada;
+    border-radius: 5px !important;
+    padding: 3% 2%; }
+    .sellers .sidebar .target_tree {
+      text-align: center;
+      font-family: "Thasadith-Bold";
+      font-size: 16px;
+      line-height: 24.33px;
+      border-bottom: 1px solid #dadada;
+      margin-bottom: 15px; }
+      .sellers .sidebar .target_tree .image .profile{
+        width: 120px;
+        height: 120px;
+      }
+      .sellers .sidebar .target_tree div {
+        margin: 10px 0; }
+      .sellers .sidebar .target_tree .tree {
+        font-family: "Coves-Bold";
+        font-size: 20px;
+        line-height: 24px; }
+      .sellers .sidebar .target_tree .official {
+        font-family: "Thasadith-Regular";
+        font-size: 13px;
+        line-height: 16px; }
+      .sellers .sidebar .target_tree .msg {
+        margin-top: 50px;
+        margin-bottom: 30px; }
+        .sellers .sidebar .target_tree .msg a {
+          border-radius: 5px !important;
+          padding: 10px 75px;
+          background-color: #ffd766;
+          color: #333;
+          text-decoration: none; }
+    .sellers .sidebar .from_avg, .sellers .sidebar .channels {
+      font-family: "Coves-Bold";
+      font-size: 16px;
+      line-height: 24px;
+      border-bottom: 1px solid #dadada; }
+      .sellers .sidebar .from_avg div, .sellers .sidebar .channels div {
+        margin-bottom: 17px; }
+      .sellers .sidebar .from_avg .channel_img, .sellers .sidebar .channels .channel_img {
+        margin-right: 10px; }
+      .sellers .sidebar .from_avg .value, .sellers .sidebar .from_avg .social_icons, .sellers .sidebar .channels .value, .sellers .sidebar .channels .social_icons {
+        float: right; }
+      .sellers .sidebar .from_avg .social_icons img, .sellers .sidebar .channels .social_icons img {
+        margin-right: 5px; }
+    .sellers .sidebar .channels, .sellers .sidebar .audience {
+      padding: 20px 0; }
+    .sellers .sidebar .audience {
+      text-align: center; }
+      .sellers .sidebar .audience .info.row{
+        margin-top:15px;
+      }
+      .sellers .sidebar .audience .felid {
+        font-family: "Coves-Bold";
+        font-size: 16px;
+        text-align: right; }
+      .sellers .sidebar .audience .value {
+        font-family: "Thasadith-Bold";
+        font-size: 13px;
+        text-align: left; }
+      .sellers .sidebar .audience .fa-user {
+        margin-right: 10px; }
+  .sellers .sellers_content {
+    padding: 30px; }
+    .sellers .sellers_content .row {
+      margin: 0; }
+    .sellers .sellers_content .caption {
+      font-family: "Coves-Bold";
+      font-size: 32px;
+      margin-top:30px;
+      margin-bottom:20px;
+      line-height: 48px; }
+    .sellers .sellers_content .row.slider {
+      text-align: center; 
+      width:60%;    
+      margin: 0 auto;}
+    .sellers .sellers_content .row.listings {
+      margin-top: 50px; }
+      .sellers .sellers_content .row.listings .panel-title a img {
+        margin-right: 10px; }
+      .sellers .sellers_content .row.listings .panel-title a span {
+        float: right;
+        padding-top: 6px; }
+        .sellers .sellers_content .row.listings .panel-title a span .fa {
+          margin-left: 20px; }
+      .sellers .sellers_content .row.listings .header_posts .fa {
+        font-size: 16px;
+        margin-right: 10px; }
+      .sellers .sellers_content .row.listings .header_posts_value .col-sm-3 {
+        margin-top: 10px;  
+        font-size: 14px; 
+        font-family:"Muli-Bold";}
+      .sellers .sellers_content .row.listings .body_content .item {
+        padding: 10px 0px; }
+        .sellers .sellers_content .row.listings .body_content .item .fa {
+          font-size: 20px; }
+        .sellers .sellers_content .row.listings .body_content .item .col-sm-4 {
+          font-family: "Thasadith-Bold";
+          font-size: 14px;
+          background: #f1f6f9;
+          padding: 16px 30px;
+          line-height: 2; }
+          .sellers .sellers_content .row.listings .body_content .item .col-sm-4.action{
+            text-align: center;
+          }
+          .sellers .sellers_content .row.listings .body_content .item .col-sm-4 a {
+            padding: 10px 30px;
+            display: inline-block;
+            margin-top: -10px;
+            margin-bottom: -10px;
+            border-radius: 5px !important;
+            min-width: 120px;
+            background: #ffd766; }
+          .sellers .sellers_content .row.listings .body_content .item .col-sm-4 a i{
+            margin-left: 5px;
+          }
+        .sellers .sellers_content .row.listings .body_content .item .story {
+          margin-top: 10px; }
+    .sellers .sellers_content .row.reviews span {
+      font-family: "Thasadith-Bold";
+      font-size: 16.42px; }
+    .sellers .sellers_content .row.reviews .review_lists img{
+      margin-right:10px;
+    }
+    .sellers .sellers_content .row.reviews .review_lists i {
+      margin: 20px 5px 20px 30px; }
+    .sellers .sellers_content .row.reviews .review_lists .content {
+      border-bottom: 1px solid #dadada;
+      /* margin-bottom: 20px; */
+      padding-bottom: 20px; }
+    .sellers .sellers_content .row.reviews .review_lists .seemore {
+      color: #46c1d0;
+      font-family: "Thasadith-Bold";
+      font-size: 16px;
+      line-height: 32px; }
+      .sellers .sellers_content .row.reviews .review_lists .seemore button {
+        background: none; }
+    .sellers .sellers_content .carousel .image-galleryitem{
+      width: 100%;
+      height: 296px;
+      background: black;
+    }
+      .sellers .sellers_content .carousel .image-galleryitem img{
+        height: 100%;
+        max-width: 100%;
+        width: unset;
+        vertical-align: middle;
+      }
+    .sellers .sellers_content .carousel .slide{
+      border-radius: 20px !important;
+      padding: 13px;
+      background: #00000008;
+    }
+    .sellers .sellers_content .carousel.carousel-slider .control-arrow{
+      padding: 0;
+      width: 60px;
+    }
+    .sellers .sellers_content .carousel.carousel-slider .control-arrow:hover{
+      background: none;
+    }
+    .sellers .sellers_content .carousel.carousel-slider .control-arrow.control-next{
+      background-image: url('../img/slider_right.png');
+      background-repeat: no-repeat;
+      background-position-y: 50%;
+    }
+    .sellers .sellers_content .carousel.carousel-slider .control-arrow.control-prev{
+      background-image: url('../img/slider_left.png');
+      background-repeat: no-repeat;
+      background-position-y: 50%;
+      background-position-x: right;
+    }
+    .sellers .sellers_content .carousel.carousel-slider .control-arrow:before{
+      border: unset !important;
+    }
+.sellers .sellers_content .row.listings .panel-group .panel{
+  border-width: 0px 0px 1px 0px;
+  overflow: hidden;
+}
+.sellers .sellers_content .row.listings .panel-default>.panel-heading{
+  background: transparent;
+  height:50px;
+}
+.sellers .sellers_content .row.listings .accordion .panel .panel-title .accordion-toggle{
+  padding-left:0;
+  padding-right:0;
+}
+.sellers .sellers_content .row.listings .panel-default .body_header{
+  padding-top: 10px;
+  overflow: hidden;
+}
+.sellers .sellers_content .mark_star{
+  margin-left:20px;
+}
+/*# sourceMappingURL=sellers.css.map */
+.sellers .datetime {
+  position: unset;
+  display: inline-flex;
+  padding: 15px 30px !important;
+}
+.sellers .datetime i{
+  margin-top: 7px;
+}
+.sellers .datetime .react-datepicker__input-container input{
+  background: #f1f6f9;
+  border: none;
+  font-size: 14px;
+  font-family: 'Thasadith-Bold';
+  padding: 5px 8px;
+}
+.sellers .datetime div.react-datepicker-wrapper, .search_page .datetime div.react-datepicker-wrapper div{
+  width: 100%;
+  background: transparent;
+}
+.sellers .datetime .react-datepicker__day-name, .react-datepicker__day, .react-datepicker__time-name{
+  margin: 1.066rem;
+  font-size: 12px;
+}
+.sellers .tab-mediatype{
+  width: 32px;
+  height: 32px;
+}
+.sellers .mediatype-name{
+  text-transform: capitalize;
+  float: unset !important;
+}
+.sellers .adlist-media{
+  margin-right: 10px;
+}
+@media (max-width: 767px){
+  .sellers .datetime {
+    width: 100%;
+  }
+}

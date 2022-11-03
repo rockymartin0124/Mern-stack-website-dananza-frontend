@@ -1,0 +1,98 @@
+.outer-tag.react-tags{
+    position: relative;
+    padding-bottom: 45px;
+}
+  .outer-tag.react-tags input{
+      font-family: "Thasadith-Bold";
+      height: 40px;
+      width: 100% !important;
+      border-radius: 5px !important;
+      border: 1px solid #dadada;
+      padding-left: 12px;
+  }
+  .outer-tag .react-tags__selected{
+    position: absolute;
+    top: 45px;
+  }
+  .outer-tag .react-tags__selected button{
+      border-radius: 8px !important;
+      background-color: #ffd766;
+      padding-left: 8px;
+      padding-right: 7px;
+      font-family: "Thasadith-Bold";
+      font-size: 11px;
+      height: 16px;
+      width: -webkit-fit-content;
+      width: -moz-fit-content;
+      width: fit-content;
+      margin-right: 6px;
+      display: inline-table;
+  }
+  .outer-tag .react-tags__selected button:after{
+    content: "✖";
+    margin-left:5px;
+    color: #000;
+    font-weight: 300;
+    font-family: Arial, sans-serif;
+  }
+  .outer-tag .react-tags__suggestions{
+      position: absolute;
+      border:1px solid #CCCCCC;
+      width:100%;
+  }
+  .outer-tag .react-tags__suggestions ul li{
+    list-style: none;
+    padding:5px;
+    background: white;
+    border:1px solid #eeeeee;
+    width: 100%;
+  }
+.inner-tag.react-tags{
+    position: relative;
+}
+  .inner-tag.react-tags input{
+      font-family: "Thasadith-Bold";
+      height: 40px;
+      width: 100% !important;
+      border-radius: 5px !important;
+      border: 1px solid #dadada;
+      padding-left: 12px;
+  }
+  .inner-tag .react-tags__selected{
+    position: absolute;
+    top: 14px;
+    left: 36px;
+  }
+  .inner-tag .react-tags__selected button{
+      border-radius: 8px !important;
+      background-color: #ffd766;
+      padding-left: 8px;
+      padding-right: 7px;
+      font-family: "Thasadith-Bold";
+      font-size: 11px;
+      height: 16px;
+      width: -webkit-fit-content;
+      width: -moz-fit-content;
+      width: fit-content;
+      margin-right: 6px;
+      display: inline-table;
+  }
+  .inner-tag .react-tags__selected button:after{
+    content: "✖";
+    margin-left:5px;
+    color: #000;
+    font-weight: 300;
+    font-family: Arial, sans-serif;
+  }
+  .inner-tag .react-tags__suggestions{
+      position: absolute;
+      border:1px solid #CCCCCC;
+      width:100%;
+  }
+  .inner-tag .react-tags__suggestions ul li{
+    list-style: none;
+    padding:5px;
+    background: white;
+    border:1px solid #eeeeee;
+    width: 100%;
+  }

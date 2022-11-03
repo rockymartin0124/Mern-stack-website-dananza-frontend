@@ -1,0 +1,600 @@
+.homepage_section {
+  margin-top: 105px;
+}
+.homepage_section .info_title {
+  font-family: "Coves-Bold";
+  font-size: 36px;
+  font-family: 900;
+}
+.homepage_section .info_content {
+  font-family: "Thasadith-Regular";
+  font-size: 16px;
+  width: 75%;
+  line-height: 32px;
+}
+.homepage_section button {
+  padding: 0 50px;
+}
+.homepage_section .row {
+  margin: 0px;
+}
+.homepage_section .row.heroblog .mk_adv_smp {
+  font-family: "Coves-Bold";
+  font-size: 5.1vw;
+  font-weight: 900;
+  padding-left: 7%;
+  margin-top: -55px;
+}
+.homepage_section .row.heroblog .mk_adv_smp > div {
+  font-family: "Thasadith-Bold";
+  font-size: 22px;
+  font-weight: 300;
+  margin-top: 7%;
+  padding-top: calc((13.1% - 185px));
+}
+.homepage_section .row.heroblog .mk_adv_smp > div.action{
+  margin-top: 58px;
+}
+.homepage_section .row.heroblog .mk_adv_smp > div a.btn{
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.homepage_section .row.heroblog .mk_adv_smp > div.finding_best_ad{
+  font-family: "Thasadith-Regular";
+}
+.homepage_section .row.heroblog .mk_adv_smp > div select, .homepage_section .row.heroblog .mk_adv_smp div input {
+  border-radius: 70px !important;
+  border:1px solid #f3f3f3;
+  width: 50%;
+  height: 50px;
+  background: #f3f3f3;
+}
+.homepage_section .row.heroblog .mk_adv_smp > div input {
+  width: 70%;
+  border: none;
+  background: white;
+  border:1px solid #d7d7d7;
+}
+.homepage_section .row.heroblog .mk_adv_smp > div input::placeholder {
+  font-size: 16px;
+  color: #4b4b4b;
+  vertical-align: middle;
+}
+.homepage_section .row.heroblog .heroimage{
+  margin-top: -34%;
+  float: right;
+  margin-right: -15px;
+  overflow: hidden;
+}
+.homepage_section .row.heroblog img {
+  float: right;
+  width: 90%;
+}
+.homepage_section .row.what_adza {
+  margin: 9% 12% 9% 18%;
+}
+.homepage_section .row.what_adza img{
+  width: 100%;
+}
+.homepage_section .row.what_adza>div{
+  display: grid;
+  justify-content: left;
+}
+.homepage_section .row.what_adza .info_title {
+  font-family: "Coves-Bold";
+  font-size: 36px;  font-family: 900;
+  padding-top: 0px;
+}
+.homepage_section .row.what_adza .info_content {
+  font-family: "Thasadith-Regular";
+  font-size: 16px;
+  width: 75%;
+  line-height: 32px;
+}
+.homepage_section .row.tell_reach {
+  margin: 5% 7%;
+} 
+.homepage_section .row.tell_reach .info_title .you {
+  color: #2ab7f3;
+}
+.homepage_section .row.tell_reach .info_title .we {
+  color: #fe4a49;
+}
+.homepage_section .row.tell_reach .info_content {
+  width: 100%;
+}
+.homepage_section .row.tell_reach .img {
+  padding-left: 75px;
+/*  padding-top:60px;*/
+  float: right;
+}
+.homepage_section .row.tell_reach .img img{
+  max-width:100%;
+}
+.homepage_section .row.build_ad {
+}
+.homepage_section .row.build_ad .col-sm-2, .homepage_section .row.build_ad .col-sm-1 {
+  text-align: center;
+  font-family: "Thasadith-Bold";
+  font-weight: 900;
+  font-size: 16px;
+}
+.homepage_section .row.build_ad .info_title {
+  text-align: center;
+  line-height: 48px;
+  padding-top: 70px;
+  padding-bottom: 0px;
+}
+.homepage_section .row.build_ad .step {
+  margin: 50px 0 50px 115px;
+  overflow: hidden;
+}
+.homepage_section .row.build_ad .step img {
+  margin-bottom: 15px;
+}
+.homepage_section .row.build_ad .step .arrow {
+  background: url("../img/arrow.png") no-repeat 50% 50% !important;
+  background-size: contain;
+  height: 50px;
+  margin: 10px auto;
+}
+.homepage_section .row.build_ad .step .vertical_arrow {
+  background-size: contain;
+  width: 50px;
+  height: 50px;
+  margin: 10px auto;
+}
+.homepage_section .row.build_ad .bg_img.col-sm-12 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.homepage_section .row.build_ad .bg_img.col-sm-12 img {
+  width: 75%;
+}
+.homepage_section .row.rest {
+  margin: 5% 7%;
+}
+.homepage_section .row.rest .info_title{
+  padding: 0 !important;
+}
+.homepage_section .row.rest .info_content {
+  line-height: 24px;
+  width: 100%;
+}
+.homepage_section .row.rest .info_content .info_content_title {
+  font-family: "Thasadith-Bold";
+  font-size: 20px;
+  font-weight: 900;
+  margin-top: 55px;
+  color: #01091c;
+}
+.homepage_section .row.rest .info_content .info_content_title .fa {
+  color: #2ab7c9;
+  width: 25px;
+  height: 25px;
+}
+.homepage_section .row.rest .img {
+  text-align: center;
+  float: right;
+  padding: 55px 3% 3%;
+}
+.homepage_section .row.rest .img img{
+  width: 100%;
+  margin-top: -23%;
+}
+.homepage_section .row.slider {
+  position: relative;
+}
+.homepage_section .row.slider #leftControl,
+.homepage_section .row.slider #rightControl {
+  position: absolute;
+  color: #848484;
+  top: 300px;
+  border-radius: 25px;
+  background-color: white;
+  width: 40px;
+  height: 40px;
+  margin: 30px;
+}
+.homepage_section .row.slider #rightControl {
+  right: 0;
+}
+.homepage_section .row.slider #rightControl .fa {
+  margin-top: 10px;
+  margin-left: 15px;
+}
+.homepage_section .row.slider #leftControl .fa {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.homepage_section .row.slider #slideshow ul{
+  width: 100%;
+}
+.homepage_section .row.slider .slide {
+  position: relative;
+  text-align: left;
+}
+.homepage_section .row.slider .slide .img_content {
+  position: absolute;
+  top: 23%;
+  width: 34%;
+  margin: 0 2% 0 50%;
+}
+.homepage_section .row.slider .slide .img_content .description {
+  font-family: "Coves-Bold";
+  font-size: 2.2vw;
+  font-weight: 900;
+  margin-bottom: 2.3vw;
+  color: #01091c;
+}
+.homepage_section .row.slider .slide .img_content .auth {
+  font-family: "Thasadith-Bold";
+  font-size: 1.23vw;
+  font-weight: 900;
+  margin-bottom: 1.1vw;
+}
+.homepage_section .row.slider .slide img{
+  width: unset;
+}
+.homepage_section .row.slider .slide .slide_img {
+  width: 100%;
+  height: 100%;
+}
+.homepage_section .row.customer {
+  margin-bottom: 70px;
+}
+.homepage_section .row.customer .info_title,
+.homepage_section .row.customer .customer_link {
+  text-align: center;
+}
+.homepage_section .row.customer .creat_act,
+.homepage_section .row.customer .become_adza {
+  text-decoration: none;
+  padding: 0 30px;
+  border-radius: 5px;
+}
+.homepage_section .row.customer .creat_act {
+  margin-right: 30px;
+}
+
+
+.homepage_section .finding_ad_input .react-tags input{
+  width: 100% !important;
+  border: 1px solid #d7d7d7 !important;
+  padding-left: 20px;
+  border-radius: 70px !important;
+}
+.homepage_section .finding_ad_input .react-tags{
+  width: calc((100% - 100px));
+  display: inline-flex !important;
+  float: right;
+  margin-bottom: 13px;
+  margin-top: -4px;
+}
+.homepage_section .finding_ad_input .react-tags .react-tags__search{
+  width: 100%;
+}
+.homepage_section .finding_ad_input .react-tags .react-tags__selected{
+    top: 50px;
+    left: 0px;
+}
+.homepage_section .finding_ad_select > div{
+  margin-bottom: 13px;
+  margin-top: -4px;
+  width: calc((100% - 215px));
+  height: 50px;
+  float: right;
+  display: inline-flex;
+}
+.homepage_section .finding_ad_select svg{
+  right: 10px;
+}
+.homepage_section .finding_ad_select .MuiSelect-icon-7{
+  right: 10px;
+}
+.homepage_section .finding_ad_select #select-advertise{
+  font-size: 20px;
+  font-family: "Thasadith-Bold";
+  line-height: 1.64;
+  padding-left: 25px;
+  border-radius: 70px !important;
+  color: #4b4b4b;
+  background-color: rgba(0, 0, 0, 0.05);
+  height: 36px;
+  padding-top: 7px;
+  padding-bottom: 7px; 
+}
+.homepage_section .finding_ad_select #select-advertise:hover{
+  background-color: rgba(0, 0, 0, 0.05);
+}
+.homepage_section .finding_ad_select #select-advertise svg{
+  right: 15px;
+}
+.homepage_section .finding_ad_select div:before, 
+.homepage_section .finding_ad_select div:after, 
+.homepage_section .finding_ad_select div:hover:before{
+  border:0px !important;
+}
+#menu-advertise ul{
+  padding-top:0px !important;
+  padding-bottom:0px !important;
+}
+#menu-advertise li{
+  padding: 8px 16px !important;
+  font-size: 16px;
+  font-family: "Thasadith-Bold";
+}
+.homepage_section .carousel .control-dots .dot{
+  border-radius: 50% !important;
+  box-shadow: unset !important;
+  background: unset;
+  border: 1px solid #afafb0 !important;
+  width: 10px;
+  height: 10px;
+  outline: 0px !important;
+}
+.homepage_section .carousel .control-dots .dot.selected{
+  background: #2ab7c9;
+  border: 1px solid #2ab7c9 !important;
+}
+.homepage_section .carousel.carousel-slider .control-arrow{
+  padding: 0;
+  width: 80px;
+}
+.homepage_section .carousel.carousel-slider .control-arrow:hover{
+  background: none;
+}
+.homepage_section .carousel.carousel-slider .control-arrow.control-next{
+  background-image: url('../img/slider_right.png');
+  background-repeat: no-repeat;
+  background-position-y: 50%;
+}
+.homepage_section .carousel.carousel-slider .control-arrow.control-prev{
+  background-image: url('../img/slider_left.png');
+  background-repeat: no-repeat;
+  background-position-y: 50%;
+  background-position-x: right;
+}
+.homepage_section .carousel.carousel-slider .control-arrow:before{
+  border: unset !important;
+}
+
+@media (max-width: 1199px){
+  .homepage_section .finding_ad_input .react-tags{
+    display: block !important;
+    width: 80%;
+    margin-left: 0;
+    margin-right: 0 !important;
+    margin-top: 10px;
+    float: unset;
+  }
+  .homepage_section .finding_ad_input .react-tags input{
+    width: 100% !important;
+  }
+  .homepage_section .finding_ad_select > div{
+    margin-left: 0;
+    margin-right: 0 !important;
+    margin-top: 10px;
+    float: unset;
+    width: 70%;
+    height: 50px;
+    display: block;
+  }
+  .homepage_section .info_title{
+    font-size: 28px !important;
+    padding-bottom: 15px;
+  }
+
+  .homepage_section .row.what_adza {
+    margin: 5% 7%;
+  }
+  .homepage_section .row.what_adza>div{
+    display: grid;
+    justify-content: center;
+  }
+  .homepage_section .row.what_adza .info_content {
+    width: 270px;
+  }
+  .homepage_section .row.rest .img img{
+    margin-top: 0px;
+  }
+
+  .homepage_section .row.heroblog .mk_adv_smp{
+    font-size: 5.1vw;
+  }
+  .homepage_section .row.heroblog .mk_adv_smp > div.finding_best_ad{
+    font-size: 18px;
+  }
+  .homepage_section .row.heroblog .mk_adv_smp > div{
+    font-size: 16px;
+  }
+  .homepage_section .row.heroblog .mk_adv_smp > div input{
+    margin:0 auto;
+  }  
+  .homepage_section select, .homepage_section input {
+    display: block;
+    margin: 35px auto;
+  }
+  .homepage_section .heroblog .heroimage{
+    margin-top: -170px !important;
+  }
+  .homepage_section .heroblog img {
+    margin-right: 0 !important;
+    margin-left: 24% !important;
+    width: 111% !important;
+    float: left !important;
+  }
+  .homepage_section .row.slider .slide .img_content .description{
+    font-size: 28px !important;
+    margin-bottom: 3.3vw;
+  }
+  .homepage_section .row.slider .slide .img_content .auth{
+    font-size: 18px !important;
+    margin-bottom: 2vw;
+  }
+  .homepage_section .row.slider .slide .img_content {
+    position: absolute;
+    top: 23%;
+    width: 34%;
+    margin: 0 2% 0 50%;
+  }
+  .homepage_section .row.rest .info_title{
+    font-size: 28px !important;
+    margin: 0 25%;
+    text-align: center;
+  }
+  .homepage_section .row.slider .slide{
+    width: calc(100vw - 15px);
+  }
+  .homepage_section .row.slider #slideshow ul{
+    width: calc(100vw - 15px);
+  }
+  .homepage_section .row.slider .slide .slide_img{
+    width: unset !important;
+  }
+  .homepage_section .row.slider .slide.selected .slide_img{
+    margin-left: calc((100vw - 1230px) * 0.34);
+  }
+  .homepage_section .row.tell_reach .img img{
+    margin-top: calc((60px + 2%));
+  }
+}
+@media (max-width: 767px) {
+  .homepage_section .finding_ad_input .react-tags{
+    width: 87.5%;
+    margin: 10px auto !important;
+  }
+  .homepage_section .finding_ad_select > div{
+    width: 87.5%;
+    margin: 10px auto !important;
+  }
+  .homepage_section .finding_ad_select #select-advertise{
+    text-align: left !important;
+  }
+  .homepage_section .heroblog .heroimage{
+    margin-top: -12% !important;
+    display: none;
+  }
+  .homepage_section .heroblog img {
+    margin-right: -43% !important;
+    width: 100% !important;
+  }
+  .homepage_section .mk_adv_smp {
+    text-align: center;
+    width: 100%;
+    margin: 0px !important;
+    font-size: 40px !important;
+    padding: 15px !important;
+  }
+  .homepage_section .row.heroblog .mk_adv_smp>div{
+    margin-top: 10px;
+  }
+  .homepage_section .row.heroblog .mk_adv_smp .finding_ad_select{
+    margin-top: 30px;
+  }
+  .homepage_section .row.heroblog .mk_adv_smp .action{
+    margin-top: 30px;
+  }
+  .homepage_section .row.heroblog .mk_adv_smp .action a{
+    width: 87.5%;
+  }
+  .homepage_section .row.what_adza {
+    margin: 80px 0px !important;
+    text-align: center;
+  }
+  .homepage_section .row.what_adza img{
+    width: 60%;
+  }
+  .homepage_section .row.what_adza>div{
+    display: inherit;
+  }
+  .homepage_section .row.what_adza .info_title {
+    margin-top: 35px;
+    font-size: 2.8vw;
+  }
+  .homepage_section .row.what_adza .info_content {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .homepage_section .row.tell_reach .img {
+    float: unset;
+    text-align: center;
+    padding: 0;
+  }
+  .homepage_section .row.tell_reach .img img{
+    width: 100%;
+  }
+  .homepage_section .row.tell_reach .info_title{
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .homepage_section .row.tell_reach .info_content{
+    text-align: center;
+    padding-bottom: 48px;
+  }
+  .homepage_section .row.build_ad .step {
+    margin-left: 0px !important;
+  }
+  .homepage_section .row.build_ad .bg_img.col-sm-12 img{
+    width: 100%;
+  }
+  .homepage_section .info_title {
+    text-align: center;
+  }
+  .homepage_section .homepage_section button {
+    width: 65% !important;
+  }
+  .homepage_section .row.slider .slide .slide_img{
+    width: unset !important;
+  }
+  .homepage_section .row.slider .slide.selected .slide_img{
+    margin-left: calc((100vw - 1230px) * 0.34);
+  }
+  .homepage_section .row.slider .slide .img_content {
+    position: absolute;
+    top: 24vw;
+    width: 56vw;
+    margin: 0;
+    left: 22vw;
+  }
+  .homepage_section .row.slider .slide .img_content .description{
+    margin-bottom: 3.5vw;
+    font-size: 24px !important;
+  }
+  .homepage_section .row.rest .img{
+    padding-top: 45px;
+    float: unset;
+  }
+  .homepage_section .carousel.carousel-slider .control-arrow{
+    display: none;
+  }
+  .homepage_section .row.customer{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .homepage_section .row.customer .creat_act, .homepage_section .row.customer .become_adza{
+    margin-right: 0;
+    width: 70%;
+    margin-top: 10px;
+  }
+  .homepage_section .row.rest .info_title{
+    font-size: 28px !important;
+    margin: 0;
+    margin-top: 75px;
+    text-align: center;
+  }
+  .homepage_section .row.slider #slideshow ul{
+    width: 100vw;
+  }
+  .homepage_section .row.rest{
+    margin-bottom: 75px;
+  }
+  
+}
+
+.homepage_section .inner-tag .react-tags__selected button{
+  font-size: 13px;
+  height: 20px;
+}
+/*# sourceMappingURL=homepage.css.map */

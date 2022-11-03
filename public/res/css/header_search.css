@@ -1,0 +1,94 @@
+/********HEADER**********/
+.page-navbar{
+  position: relative;
+  background-color: #f3f3f3;
+  border-top: 1px solid #dadada;
+  display: flex;
+}
+.page-navbar-content{
+  margin: 0px auto;
+  list-style: none;
+  display: inline-flex;
+  padding: 0px;
+}
+.page-navbar-content label{
+  height: 40px;
+  background-color: unset;
+  border: none;
+}
+
+/* header start */
+
+
+.header_section {
+  margin-bottom: 0px;
+  padding: 15px 2%;
+  font-size: 16px;
+  /* dropmenu  start */
+  /* dropmenu end */ }
+  .header_section .nav_bar {
+    display: flex; }
+    .header_section .nav_bar .logo{
+      display: -webkit-inline-box;
+    }
+    .header_section .nav_bar .input-icon{
+      margin-left: 40px;
+      display: -webkit-box;
+      font-family: "Thasadith-Bold";
+    }
+    .header_section .nav_bar .search-input{
+      border-top-left-radius: 5px !important;
+      border-bottom-left-radius: 5px !important;
+      width: 330px;
+      height: 40px;
+    }
+    .header_section .nav_bar .search-but{
+      border-top-left-radius: 0px !important;
+      border-bottom-left-radius: 0px !important;
+      height: 40px;
+      background-color:#2ab7c9;
+    }
+  .header_section .nav_menu {
+    width: 100%;
+    z-index: 9; }
+    .header_section .nav_menu ul {
+      list-style: none;
+      display: flex;
+      float: right;
+      margin: 0px; }
+      .header_section .nav_menu ul li {
+        margin-right: 35px;
+        padding-top: 10px;
+      }
+        .header_section .nav_menu ul li a {
+          color: #000c20;
+          text-decoration: none !important; }
+      .header_section .nav_menu ul .menu_last_li {
+        margin-right: 0px !important; }
+      .header_section .nav_menu ul .menu_adza {
+        background-color: #ffd766;
+        padding: 13px 30px;
+        border-radius: 5px !important; }
+  .header_section .navbar_toggler_open {
+    background: url("../img/nav_bar_btn.png") no-repeat 50% 50%;
+    background-size: contain;
+    width: 35px;
+    height: 25px;
+    border: none;
+    float: right; }
+  .header_section .navbar_toggler_close {
+    background: url("../img/nav_bar_close.png") no-repeat 50% 50% !important;
+    background-size: contain;
+    width: 35px;
+    height: 25px;
+    border: none;
+    float: right; }
+  .header_section .nav_mobile_menu {
+    text-align: center; }
+  .header_section .nav_mobile_list {
+    list-style: none;
+    display: block; }
+  .header_section .nav_mobile_list li {
+    margin-bottom: 43px; }
+
+/* header end */
